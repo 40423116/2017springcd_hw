@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-03-02T11:28:32-00:00</lastmod>
+<lastmod>2017-03-02T11:50:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-03-02T11:28:32-00:00</lastmod>
+<lastmod>2017-03-02T11:50:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-03-02T11:28:32-00:00</lastmod>
+<lastmod>2017-03-02T11:50:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-03-02T11:28:32-00:00</lastmod>
+<lastmod>2017-03-02T11:50:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,21 +109,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./category/zuo-ye.html</loc>
-<lastmod>2017-02-22T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/2016fallcadp_hw.html</loc>
+<loc>./category/2016fallcadp_hw.html</loc>
 <lastmod>2017-01-12T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/2017springcd_hw.html</loc>
+<loc>./category/2017springcd_hw.html</loc>
+<lastmod>2017-02-22T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/zuo-ye.html</loc>
 <lastmod>2017-02-22T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
