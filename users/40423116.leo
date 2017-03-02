@@ -25,10 +25,10 @@
 <v t="leo.20161124155130.4" a="E"><vh>body</vh>
 <v t="leo.20161124155130.5" a="E"><vh>reveal div</vh>
 <v t="leo.20161124155130.6" a="E"><vh>slides div</vh>
-<v t="leo.20161124155130.7"><vh>封面投影片</vh>
+<v t="leo.20161124155130.7" a="E"><vh>封面投影片</vh>
 <v t="leo.20161124155130.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20161124155130.9"><vh>練習零件繪製</vh>
+<v t="leo.20161124155130.9" a="E"><vh>第一週</vh>
 <v t="leo.20161124155130.10"><vh>內容</vh></v>
 </v>
 <v t="leo.20161124155610.1" a="E"><vh>沒網路</vh>
@@ -68,7 +68,7 @@
 <v t="leo.20161124155130.32"><vh>下載可攜程式環境</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.33"><vh>電腦輔助設計課程內涵</vh>
+<v t="leo.20161124155130.33" a="E"><vh>電腦輔助設計課程內涵</vh>
 <v t="leo.20161124155130.34" a="E"><vh>電腦輔助設計課程內涵</vh>
 <v t="leo.20161124155130.35"><vh>CAD 教學主題</vh></v>
 </v>
@@ -97,7 +97,7 @@
 <v t="leo.20161124155130.51"><vh>Flask 網際程式</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.52"><vh>協同力訓練</vh>
+<v t="leo.20161124155130.52" a="E"><vh>協同力訓練</vh>
 <v t="leo.20161124155130.53" a="E"><vh>Github 帳號</vh>
 <v t="leo.20161124155130.54"><vh>Github 倉儲網頁</vh></v>
 </v>
@@ -108,7 +108,7 @@
 <v t="leo.20161124155130.58"><vh>Github 倉儲拉回請求</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.59"><vh>各式內容引用範例</vh>
+<v t="leo.20161124155130.59" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20161124155130.60" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20161124155130.61"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -157,7 +157,7 @@
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>40423116 所寫的網誌文章</vh>
-<v t="amd.20160727114506.1" a="E"><vh>201609</vh>
+<v t="amd.20160727114506.1" a="E"><vh>2016fallcadp_hw</vh>
 <v t="amd.20160727120222.1"><vh>@edit 2016-w1.md</vh></v>
 <v t="leo.20161027163221.1"><vh>@edit 2016-w2.md</vh></v>
 <v t="leo.20161102005700.1"><vh>@edit 2016-w7.md</vh></v>
@@ -167,6 +167,9 @@
 <v t="leo.20161222122510.1"><vh>@edit 2016-w14.md</vh></v>
 <v t="leo.20161225200934.1"><vh>@edit 2016-w15.md</vh></v>
 <v t="leo.20170112145202.1"><vh>@edit 2016-w16.md</vh></v>
+</v>
+<v t="leo.20170302111235.1" a="E"><vh>2017springcd_hw</vh>
+<v t="leo.20170302111235.2"><vh>@edit 2017-w1.md</vh></v>
 </v>
 </v>
 </v>
@@ -323,9 +326,8 @@ DEFAULT_DATE = 'fs'</t>
 @others
 
 </t>
-<t tx="leo.20161124155130.10">&lt;section&gt;					&lt;h2&gt;練習零件繪製&lt;/h2&gt;
-&lt;iframe src="https://player.vimeo.com/video/185673835" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/185673835"&gt;練習零件繪製&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+<t tx="leo.20161124155130.10">&lt;section&gt;					&lt;h2&gt;第一週&lt;/h2&gt;
+&lt;p&gt;利用solvespace組裝四連桿機構&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20161124155130.11">&lt;section&gt;
 @others
@@ -873,9 +875,9 @@ make.start()
     &lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20161124155130.8">&lt;section&gt;
-					&lt;h1&gt;2016Fall CADP&lt;/h1&gt;		
-					&lt;h3&gt;40423116&lt;/h3&gt;
-					&lt;h1&gt;李冠辰&lt;/h1&gt;
+					&lt;h1&gt;2017springcd_hw&lt;/h1&gt;		
+&lt;h2&gt;協同產品設計實習&lt;/h2&gt;		&lt;h3&gt;40423116&lt;/h3&gt;
+&lt;h1&gt;李冠辰&lt;/h1&gt;
 					&lt;p&gt;
 						&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;&lt;/small&gt;
 					&lt;/p&gt;
@@ -904,5 +906,6 @@ make.start()
 &lt;iframe src="https://player.vimeo.com/video/185690642" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/185690642"&gt;沒網路日常&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20170302111235.1"></t>
 </tnodes>
 </leo_file>
