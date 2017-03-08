@@ -34,7 +34,7 @@
 <v t="leo.20161124155610.1" a="E"><vh>沒網路</vh>
 <v t="leo.20161124155610.2"><vh>沒網路日常</vh></v>
 </v>
-<v t="leo.20161124155130.11"><vh>三大主題教學</vh>
+<v t="leo.20161124155130.11" a="E"><vh>三大主題教學</vh>
 <v t="leo.20161124155130.12" a="E"><vh>主題教學</vh>
 <v t="leo.20161124155130.13"><vh>電腦輔助設計在教什麼?</vh></v>
 </v>
@@ -57,7 +57,7 @@
 <v t="leo.20161124155130.25"><vh>高效執行力</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.26"><vh>CADP 課程倉儲</vh>
+<v t="leo.20161124155130.26" a="E"><vh>CADP 課程倉儲</vh>
 <v t="leo.20161124155130.27" a="E"><vh>課程時段與規劃</vh>
 <v t="leo.20161124155130.28"><vh>規劃、Wiki 與網誌</vh></v>
 </v>
@@ -72,7 +72,7 @@
 <v t="leo.20161124155130.34" a="E"><vh>電腦輔助設計課程內涵</vh>
 <v t="leo.20161124155130.35"><vh>CAD 教學主題</vh></v>
 </v>
-<v t="leo.20161124155130.36"><vh>Github pages 網頁</vh>
+<v t="leo.20161124155130.36" a="E"><vh>Github pages 網頁</vh>
 <v t="leo.20161124155130.37"><vh>各學員任務</vh></v>
 </v>
 <v t="leo.20161124155130.38"><vh>所有操作都必須拍影片</vh>
@@ -328,6 +328,10 @@ DEFAULT_DATE = 'fs'</t>
 </t>
 <t tx="leo.20161124155130.10">&lt;section&gt;					&lt;h2&gt;第一週&lt;/h2&gt;
 &lt;p&gt;利用solvespace組裝四連桿機構&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/207459787" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/207459787"&gt;fourbar&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
 &lt;/section&gt;</t>
 <t tx="leo.20161124155130.11">&lt;section&gt;
 @others
