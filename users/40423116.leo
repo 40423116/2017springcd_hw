@@ -28,33 +28,26 @@
 <v t="leo.20161124155130.7" a="E"><vh>封面投影片</vh>
 <v t="leo.20161124155130.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20161124155130.9" a="E"><vh>第一週</vh>
+<v t="leo.20161124155130.9"><vh>第一週</vh>
+<v t="leo.20170309094354.1"><vh>第一頁</vh>
 <v t="leo.20161124155130.10"><vh>內容</vh></v>
 </v>
-<v t="leo.20161124155610.1" a="E"><vh>沒網路</vh>
+<v t="leo.20170309101556.1" a="E"><vh>第二頁</vh>
+<v t="leo.20170309101556.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20161124155610.1"><vh>第二週</vh>
 <v t="leo.20161124155610.2"><vh>沒網路日常</vh></v>
 </v>
-<v t="leo.20161124155130.11" a="E"><vh>三大主題教學</vh>
-<v t="leo.20161124155130.12" a="E"><vh>主題教學</vh>
-<v t="leo.20161124155130.13"><vh>電腦輔助設計在教什麼?</vh></v>
+<v t="leo.20161124155130.11" a="E"><vh>第三週</vh>
+<v t="leo.20161124155130.12" a="E"><vh>1</vh>
+<v t="leo.20161124155130.13"><vh>01</vh></v>
 </v>
-<v t="leo.20161124155130.14" a="E"><vh>主題教學內容</vh>
-<v t="leo.20161124155130.15"><vh>電腦輔助設計在教什麼?</vh></v>
+<v t="leo.20161124155130.14" a="E"><vh>2</vh>
+<v t="leo.20161124155130.15"><vh>02</vh></v>
 </v>
 <v t="leo.20161124155130.16" a="E"><vh>相關課程</vh>
 <v t="leo.20161124155130.17"><vh>電腦輔助設計系列課程</vh></v>
-</v>
-<v t="leo.20161124155130.18" a="E"><vh>創造力</vh>
-<v t="leo.20161124155130.19"><vh>何謂創造力?</vh></v>
-</v>
-<v t="leo.20161124155130.20" a="E"><vh>創造力</vh>
-<v t="leo.20161124155130.21"><vh>何謂創造力?</vh></v>
-</v>
-<v t="leo.20161124155130.22" a="E"><vh>所謂自學</vh>
-<v t="leo.20161124155130.23"><vh>自學的訓練</vh></v>
-</v>
-<v t="leo.20161124155130.24" a="E"><vh>執行力</vh>
-<v t="leo.20161124155130.25"><vh>高效執行力</vh></v>
 </v>
 </v>
 <v t="leo.20161124155130.26" a="E"><vh>CADP 課程倉儲</vh>
@@ -170,6 +163,8 @@
 </v>
 <v t="leo.20170302111235.1" a="E"><vh>2017springcd_hw</vh>
 <v t="leo.20170302111235.2"><vh>@edit 2017-w1.md</vh></v>
+<v t="leo.20170309110016.1"><vh>@edit 2017-w2.md</vh></v>
+<v t="leo.20170309110020.1"><vh>@edit 2017-w3.md</vh></v>
 </v>
 </v>
 </v>
@@ -326,13 +321,14 @@ DEFAULT_DATE = 'fs'</t>
 @others
 
 </t>
-<t tx="leo.20161124155130.10">&lt;section&gt;					&lt;h2&gt;第一週&lt;/h2&gt;
-&lt;p&gt;利用solvespace組裝四連桿機構&lt;/p&gt;
+<t tx="leo.20161124155130.10">&lt;h2&gt;第一週&lt;/h2&gt;
+&lt;p&gt;下載可攜程式系統&lt;/p&gt;
+&lt;p1&gt;利用solvespace繪製並組裝四連桿機構&lt;/p1&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/207459787" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/207459787"&gt;fourbar&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;/section&gt;</t>
+</t>
 <t tx="leo.20161124155130.11">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -346,12 +342,7 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161124155130.13">## 電腦輔助設計在教什麼?
-
-### 創造力
-### 表達力
-以及
-### 協同力
+<t tx="leo.20161124155130.13">#各組選兩部 Hyperworks影片並編寫逐字稿
 </t>
 <t tx="leo.20161124155130.14">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -362,14 +353,8 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161124155130.15"># CAD 在教什麼?
-
-## &lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;&lt;small&gt;=自學力+程式力+想像力&lt;/small&gt;
-## &lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;&lt;small&gt;=口語+文字+2D+3D+理論+實體&lt;/small&gt;
-&lt;span style="color:#00FF80"&gt;以及&lt;/span&gt;
-## &lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;&lt;small&gt;=電腦+網路+工具+專案&lt;/small&gt;
-
-</t>
+<t tx="leo.20161124155130.15">#Fossil SCM 與 Stunnel 啟動整合
+&lt;a href="blog/2017springcd-di-san-zhou.html"&gt;程式&lt;/a&gt;</t>
 <t tx="leo.20161124155130.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -388,79 +373,10 @@ DEFAULT_DATE = 'fs'</t>
 也在研習&lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;、&lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;與&lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;
 
 </t>
-<t tx="leo.20161124155130.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.19"># 何謂創造力?
-
-## 能夠&lt;small&gt;&lt;span style="color:#FF0080"&gt;持續&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;自學&lt;/span&gt;
-## 會安排&lt;small&gt;&lt;span style="color:#FF0080"&gt;高效&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;可執行&lt;/span&gt;流程
-&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
-## 俱備&lt;small&gt;&lt;span style="color:#FF0080"&gt;豐富&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;想像力&lt;/span&gt;
-
-</t>
 <t tx="leo.20161124155130.2">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
 &lt;/html&gt;
-</t>
-<t tx="leo.20161124155130.20">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.21"># 何謂創造力?
-
-## 能夠&lt;small&gt;&lt;span style="color:#FF0080"&gt;持續&lt;/span&gt;&lt;/small&gt;自學-&gt;&lt;span style="color:#FFFF00"&gt;不一定都要別人教&lt;/span&gt;
-## 會安排&lt;small&gt;&lt;span style="color:#FF0080"&gt;高效&lt;/span&gt;&lt;/small&gt;可執行流程-&gt;展現&lt;span style="color:#FFFF00"&gt;執行力&lt;/span&gt;
-&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
-## 俱備&lt;small&gt;&lt;span style="color:#FF0080"&gt;豐富&lt;/span&gt;&lt;/small&gt;想像力-&gt;不受限, &lt;span style="color:#FFFF00"&gt;積極進行改造&lt;/span&gt;
-
-</t>
-<t tx="leo.20161124155130.22">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.23"># 自學的訓練
-
-## 學員必須自己有學習動機
-## 能消化中英文資料
-## 從中體會學習的意義
-
-
-</t>
-<t tx="leo.20161124155130.24">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.25"># 高效執行力
-
-## 用對的方法
-## 在對的時機
-## 找對的人
-## 作對的事
-
-
 </t>
 <t tx="leo.20161124155130.26">&lt;section&gt;
 @others
@@ -887,12 +803,9 @@ make.start()
 					&lt;/p&gt;
                     &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
 				&lt;/section&gt;</t>
-<t tx="leo.20161124155130.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20161124155130.9">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
-
 
 						
 </t>
@@ -911,5 +824,29 @@ make.start()
 &lt;p&gt;&lt;a href="https://vimeo.com/185690642"&gt;沒網路日常&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170302111235.1"></t>
+<t tx="leo.20170309094354.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170309101556.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170309101556.2">&lt;h2&gt;利用onshape繪製四連桿並組合&lt;/h2&gt;
+
+
+
+
+</t>
 </tnodes>
 </leo_file>
