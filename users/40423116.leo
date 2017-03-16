@@ -25,21 +25,21 @@
 <v t="leo.20161124155130.4" a="E"><vh>body</vh>
 <v t="leo.20161124155130.5" a="E"><vh>reveal div</vh>
 <v t="leo.20161124155130.6" a="E"><vh>slides div</vh>
-<v t="leo.20161124155130.7" a="E"><vh>封面投影片</vh>
+<v t="leo.20161124155130.7"><vh>封面投影片</vh>
 <v t="leo.20161124155130.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20161124155130.9"><vh>第一週</vh>
-<v t="leo.20170309094354.1"><vh>第一頁</vh>
+<v t="leo.20161124155130.9" a="E"><vh>第一週</vh>
+<v t="leo.20170309094354.1" a="E"><vh>第一頁</vh>
 <v t="leo.20161124155130.10"><vh>內容</vh></v>
 </v>
 <v t="leo.20170309101556.1" a="E"><vh>第二頁</vh>
 <v t="leo.20170309101556.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20161124155610.1"><vh>第二週</vh>
-<v t="leo.20161124155610.2"><vh>沒網路日常</vh></v>
+<v t="leo.20161124155610.1" a="E"><vh>第二週</vh>
+<v t="leo.20161124155610.2"><vh>vrep運動模擬</vh></v>
 </v>
-<v t="leo.20161124155130.11" a="E"><vh>第三週</vh>
+<v t="leo.20161124155130.11"><vh>第三週</vh>
 <v t="leo.20161124155130.12" a="E"><vh>1</vh>
 <v t="leo.20161124155130.13"><vh>01</vh></v>
 </v>
@@ -50,8 +50,8 @@
 <v t="leo.20161124155130.17"><vh>電腦輔助設計系列課程</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.26" a="E"><vh>CADP 課程倉儲</vh>
-<v t="leo.20161124155130.27" a="E"><vh>課程時段與規劃</vh>
+<v t="leo.20161124155130.26" a="E"><vh>第四週</vh>
+<v t="leo.20161124155130.27" a="E"><vh>建立fossil小組</vh>
 <v t="leo.20161124155130.28"><vh>規劃、Wiki 與網誌</vh></v>
 </v>
 <v t="leo.20161124155130.29" a="E"><vh>下載 miniconda 可攜環境</vh>
@@ -165,6 +165,7 @@
 <v t="leo.20170302111235.2"><vh>@edit 2017-w1.md</vh></v>
 <v t="leo.20170309110016.1"><vh>@edit 2017-w2.md</vh></v>
 <v t="leo.20170309110020.1"><vh>@edit 2017-w3.md</vh></v>
+<v t="leo.20170316110722.1"><vh>@edit 2017-w4.md</vh></v>
 </v>
 </v>
 </v>
@@ -354,7 +355,22 @@ DEFAULT_DATE = 'fs'</t>
 						
 </t>
 <t tx="leo.20161124155130.15">#Fossil SCM 與 Stunnel 啟動整合
-&lt;a href="blog/2017springcd-di-san-zhou.html"&gt;程式&lt;/a&gt;</t>
+&lt;a href="blog/2017springcd-di-san-zhou.html"&gt;程式&lt;/a&gt;
+Empty Page fossil init 個人倉儲 會給一組帳戶密碼
+
+查詢ip位置 ipconfig /all
+
+設定proxy
+
+進入fossil個人倉儲頁面
+
+修改user name及password
+
+本日3/16 40423116 報到
+
+建立了小組倉儲，並新增組員進來
+
+個人gitoub倉儲https://github.com/40423116</t>
 <t tx="leo.20161124155130.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -391,13 +407,9 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161124155130.28"># 電腦輔助設計實習課程規劃
+<t tx="leo.20161124155130.28"># 建立fossil小組並新增組員
 
-## [課程規劃](https://github.com/mdecourse/2016fallcadp/blob/master/syllabus.py)
-## [課程 Wiki](https://github.com/mdecourse/2016fallcadp/wiki)
-## [課程網誌](http://chiamingyen.github.io/kmolab/blog/tag/2016fallcadp.html)
-
-</t>
+&lt;a href="https://mde2a2.kmol.info/cdag3/wiki"&gt;個人fossil倉儲&lt;/a&gt;</t>
 <t tx="leo.20161124155130.29">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -809,20 +821,16 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161124155610.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20161124155610.1">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
 </t>
 <t tx="leo.20161124155610.2">&lt;section&gt;
-&lt;h2&gt;沒網路日常好lag&lt;/h2&gt;
-&lt;iframe src="https://player.vimeo.com/video/185690642" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/185690642"&gt;沒網路日常&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;h2&gt;vrep運動模擬&lt;/h2&gt;
+</t>
 <t tx="leo.20170302111235.1"></t>
 <t tx="leo.20170309094354.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
