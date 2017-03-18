@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 作業網誌</title><link href="./" rel="alternate"></link><link href="./feeds/2017springcd_hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T12:00:00+08:00</updated><entry><title>2017springcd 第四週</title><link href="./2017springcd-di-si-zhou.html" rel="alternate"></link><published>2017-03-16T12:00:00+08:00</published><updated>2017-03-16T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-16:./2017springcd-di-si-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 作業網誌</title><link href="./" rel="alternate"></link><link href="./feeds/2017springcd_hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T12:00:00+08:00</updated><entry><title>2017springcd 第四週</title><link href="./2017springcd-di-si-zhou.html" rel="alternate"></link><published>2017-03-16T12:00:00+08:00</published><updated>2017-03-16T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-16:./2017springcd-di-si-zhou.html</id><summary type="html">&lt;h1&gt;建立小組fossil倉儲並新增組員&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://mde2a2.kmol.info/cdag3"&gt;fossil倉儲第三組&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1&gt;建立小組fossil倉儲並新增組員&lt;/h1&gt;
+
 &lt;p&gt;fossil編寫程式用sql&lt;/p&gt;
 &lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;fossil sql -R vcp.fossil
 &lt;/pre&gt;&lt;/div&gt;
@@ -220,7 +221,11 @@
 &lt;span class="s1"&gt;start /MIN stunnel.exe&lt;/span&gt;
 &lt;span class="s1"&gt;Exit&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd 第二週</title><link href="./2017springcd-di-er-zhou.html" rel="alternate"></link><published>2017-03-02T12:00:00+08:00</published><updated>2017-03-02T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-02:./2017springcd-di-er-zhou.html</id><summary type="html">&lt;p&gt;多連桿運動路徑&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;影片區
+&lt;iframe src="https://player.vimeo.com/video/208837568" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/208837568"&gt;建立fossil倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd 第二週</title><link href="./2017springcd-di-er-zhou.html" rel="alternate"></link><published>2017-03-02T12:00:00+08:00</published><updated>2017-03-02T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-02:./2017springcd-di-er-zhou.html</id><summary type="html">&lt;p&gt;多連桿運動路徑&lt;/p&gt;
 
 
 &lt;iframe src="https://player.vimeo.com/video/208828038" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
