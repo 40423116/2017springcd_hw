@@ -25,10 +25,10 @@
 <v t="leo.20161124155130.4" a="E"><vh>body</vh>
 <v t="leo.20161124155130.5" a="E"><vh>reveal div</vh>
 <v t="leo.20161124155130.6" a="E"><vh>slides div</vh>
-<v t="leo.20161124155130.7"><vh>封面投影片</vh>
+<v t="leo.20161124155130.7" a="E"><vh>封面投影片</vh>
 <v t="leo.20161124155130.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20161124155130.9" a="E"><vh>第一週</vh>
+<v t="leo.20161124155130.9"><vh>第一週</vh>
 <v t="leo.20170309094354.1" a="E"><vh>第一頁</vh>
 <v t="leo.20161124155130.10"><vh>內容</vh></v>
 </v>
@@ -166,6 +166,8 @@
 <v t="leo.20170309110016.1"><vh>@edit 2017-w2.md</vh></v>
 <v t="leo.20170309110020.1"><vh>@edit 2017-w3.md</vh></v>
 <v t="leo.20170316110722.1"><vh>@edit 2017-w4.md</vh></v>
+<v t="leo.20170330090526.1"><vh>@edit 2017-w5.md</vh></v>
+<v t="leo.20170330090535.1"><vh>@edit 2017-w6.md</vh></v>
 </v>
 </v>
 </v>
@@ -810,9 +812,6 @@ make.start()
 					&lt;h1&gt;2017springcd_hw&lt;/h1&gt;		
 &lt;h2&gt;協同產品設計實習&lt;/h2&gt;		&lt;h3&gt;40423116&lt;/h3&gt;
 &lt;h1&gt;李冠辰&lt;/h1&gt;
-					&lt;p&gt;
-						&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;&lt;/small&gt;
-					&lt;/p&gt;
                     &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
 				&lt;/section&gt;</t>
 <t tx="leo.20161124155130.9">&lt;section&gt;
