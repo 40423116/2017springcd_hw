@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 作業網誌</title><link href="./" rel="alternate"></link><link href="./feeds/2017springcd_hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T12:00:00+08:00</updated><entry><title>2017springcd_hw 第六週</title><link href="./2017springcd_hw-di-liu-zhou.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-30:./2017springcd_hw-di-liu-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;p&gt;CDW6&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;全自動的 start.bat 與 stop.bat 設定&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用者可以完全控制近端 (隨身碟或隨身硬碟) 上的 Fossil SCM Server 啟動, 並且登入進行 Wiki 與 Technote 的內容管理&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用者可以在近端練習各種 Fossil SCM 的指令與連桿位置 tracking 驗證程式的開發&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;使用者已經可以利用 Solvespace 與 OnShape 繪製 one-link, four-bar 與 Jansen's Linkage 機構, 並且將模型導入 V-rep&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;使用者已經可以完成 V-rep 模擬平台上的 one-link velocity and position control&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用者學習如何透過 loop closure 設定, 將 four-bar linkage 從 Solvespace 與 OnShape 轉入 V-rep 進行 Python Remote API 的 position and velocity 控制&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;使用者學習如何利用 OnShape 在瀏覽器中進行 one-link 與 four-bar linkage 的運動模擬, 轉出 public link 放到個人的簡報與網誌中.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;使用者必須完成以上各階段的操作流程說明與操作影片拍攝, 並透過簡報與網誌完成個人的期中專案報告.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;期中考後則陸續完成 Jansen's Linkage 的 OnShape 運動模擬與 V-rep 平台上的 Python Remote API position 與 velocity control simulation&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd_hw 第五週</title><link href="./2017springcd_hw-di-wu-zhou.html" rel="alternate"></link><published>2017-03-23T12:00:00+08:00</published><updated>2017-03-23T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-23:./2017springcd_hw-di-wu-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;期中考後則陸續完成 Jansen's Linkage 的 OnShape 運動模擬與 V-rep 平台上的 Python Remote API position 與 velocity control simulation&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd_hw 第五週</title><link href="./2017springcd_hw-di-wu-zhou.html" rel="alternate"></link><published>2017-03-23T12:00:00+08:00</published><updated>2017-03-23T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-23:./2017springcd_hw-di-wu-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;介紹Wiki編輯模式的種類(Fossil Wiki、Markdown、Html)&lt;/p&gt;
 &lt;p&gt;Solcespace 單連桿轉入 V-rep 進行運動模擬&lt;/p&gt;
-&lt;p&gt;V-rep的remote API連結單連桿&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd_hw 第四週</title><link href="./2017springcd_hw-di-si-zhou.html" rel="alternate"></link><published>2017-03-16T12:00:00+08:00</published><updated>2017-03-16T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-16:./2017springcd_hw-di-si-zhou.html</id><summary type="html">&lt;h1&gt;建立小組fossil倉儲並新增組員&lt;/h1&gt;
+&lt;p&gt;&lt;img src="./../2017springcd/onelink/onelink.html"width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;影片:轉入 V-rep 設定跟運動模擬&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd_hw 第四週</title><link href="./2017springcd_hw-di-si-zhou.html" rel="alternate"></link><published>2017-03-16T12:00:00+08:00</published><updated>2017-03-16T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-16:./2017springcd_hw-di-si-zhou.html</id><summary type="html">&lt;h1&gt;建立小組fossil倉儲並新增組員&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://mde2a2.kmol.info/cdag3"&gt;fossil倉儲第三組&lt;/a&gt;&lt;/p&gt;
 
 
