@@ -28,7 +28,7 @@
 <v t="leo.20161124155130.7"><vh>封面投影片</vh>
 <v t="leo.20161124155130.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20161124155130.9"><vh>第一週</vh>
+<v t="leo.20161124155130.9" a="E"><vh>第一週</vh>
 <v t="leo.20170309094354.1" a="E"><vh>第一頁</vh>
 <v t="leo.20161124155130.10"><vh>內容</vh></v>
 </v>
@@ -36,69 +36,35 @@
 <v t="leo.20170309101556.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20161124155610.1"><vh>第二週</vh>
-<v t="leo.20161124155610.2"><vh>vrep運動模擬</vh></v>
+<v t="leo.20161124155610.1" a="E"><vh>第二週</vh>
+<v t="leo.20161124155610.2" a="E"><vh>1</vh>
+<v t="leo.20170406090403.1"><vh>1</vh></v>
 </v>
-<v t="leo.20161124155130.11"><vh>第三週</vh>
+<v t="leo.20170406090438.1" a="E"><vh>2</vh>
+<v t="leo.20170406090438.2"><vh>1</vh></v>
+</v>
+</v>
+<v t="leo.20161124155130.11" a="E"><vh>第三週</vh>
 <v t="leo.20161124155130.12" a="E"><vh>1</vh>
 <v t="leo.20161124155130.13"><vh>01</vh></v>
 </v>
-<v t="leo.20161124155130.14" a="E"><vh>2</vh>
-<v t="leo.20161124155130.15"><vh>02</vh></v>
 </v>
-<v t="leo.20161124155130.16" a="E"><vh>相關課程</vh>
-<v t="leo.20161124155130.17"><vh>電腦輔助設計系列課程</vh></v>
-</v>
-</v>
-<v t="leo.20161124155130.26"><vh>第四週</vh>
-<v t="leo.20161124155130.27" a="E"><vh>建立fossil小組</vh>
-<v t="leo.20161124155130.28"><vh>規劃、Wiki 與網誌</vh></v>
-</v>
-<v t="leo.20161124155130.29" a="E"><vh>下載 miniconda 可攜環境</vh>
-<v t="leo.20161124155130.30"><vh>下載可攜程式環境</vh></v>
-</v>
-<v t="leo.20161124155130.31" a="E"><vh>學員自評項目</vh>
-<v t="leo.20161124155130.32"><vh>下載可攜程式環境</vh></v>
+<v t="leo.20161124155130.26" a="E"><vh>第四週</vh>
+<v t="leo.20161124155130.27" a="E"><vh>1</vh>
+<v t="leo.20161124155130.28"><vh>1</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.33"><vh>電腦輔助設計課程內涵</vh>
-<v t="leo.20161124155130.34" a="E"><vh>電腦輔助設計課程內涵</vh>
-<v t="leo.20161124155130.35"><vh>CAD 教學主題</vh></v>
-</v>
-<v t="leo.20161124155130.36" a="E"><vh>Github pages 網頁</vh>
-<v t="leo.20161124155130.37"><vh>各學員任務</vh></v>
-</v>
-<v t="leo.20161124155130.38"><vh>所有操作都必須拍影片</vh>
-<v t="leo.20161124155130.39"><vh>操作影片</vh></v>
-</v>
-<v t="leo.20161124155130.40"><vh>Solvespace 操作練習</vh>
-<v t="leo.20161124155130.41"><vh>Solvespace 實習</vh></v>
-</v>
-<v t="leo.20161124155130.42" a="E"><vh>Solvespace 四連桿模擬</vh>
-<v t="leo.20161124155130.43"><vh>Solvespace 模擬</vh></v>
-</v>
-<v t="leo.20161124155130.44"><vh>OnShape 操作練習</vh>
-<v t="leo.20161124155130.45"><vh>OnShape 實習</vh></v>
-</v>
-<v t="leo.20161124155130.46"><vh>Nutcracker 操作練習</vh>
-<v t="leo.20161124155130.47"><vh>OnShape 實習</vh></v>
-</v>
-<v t="leo.20161124155130.48" a="E"><vh>Delta Printer 組裝</vh>
-<v t="leo.20161124155130.49"><vh>機電資產品的設計考量</vh></v>
-</v>
-<v t="leo.20161124155130.50"><vh>網際自評系統</vh>
-<v t="leo.20161124155130.51"><vh>Flask 網際程式</vh></v>
+<v t="leo.20161124155130.33" a="E"><vh>第5週</vh>
+<v t="leo.20161124155130.34" a="E"><vh>1</vh>
+<v t="leo.20161124155130.35"><vh>01</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.52"><vh>協同力訓練</vh>
-<v t="leo.20161124155130.53" a="E"><vh>Github 帳號</vh>
-<v t="leo.20161124155130.54"><vh>Github 倉儲網頁</vh></v>
+<v t="leo.20161124155130.52" a="E"><vh>第6週</vh>
+<v t="leo.20161124155130.53" a="E"><vh>1</vh>
+<v t="leo.20161124155130.54"><vh>01</vh></v>
 </v>
-<v t="leo.20161124155130.55"><vh>倉儲子模組串連</vh>
-<v t="leo.20161124155130.56"><vh>學員作業網頁定版</vh></v>
-</v>
-<v t="leo.20161124155130.57"><vh>倉儲版本拉回請求</vh>
-<v t="leo.20161124155130.58"><vh>Github 倉儲拉回請求</vh></v>
+<v t="leo.20161124155130.55" a="E"><vh>2</vh>
+<v t="leo.20161124155130.56"><vh>02</vh></v>
 </v>
 </v>
 <v t="leo.20161124155130.59"><vh>各式內容引用範例</vh>
@@ -345,52 +311,9 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161124155130.13">#各組選兩部 Hyperworks影片並編寫逐字稿
-</t>
-<t tx="leo.20161124155130.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.15">#Fossil SCM 與 Stunnel 啟動整合
-&lt;a href="blog/2017springcd-di-san-zhou.html"&gt;程式&lt;/a&gt;
-Empty Page fossil init 個人倉儲 會給一組帳戶密碼
-
-查詢ip位置 ipconfig /all
-
-設定proxy
-
-進入fossil個人倉儲頁面
-
-修改user name及password
-
-本日3/16 40423116 報到
-
-建立了小組倉儲，並新增組員進來
-
-個人gitoub倉儲https://github.com/40423116</t>
-<t tx="leo.20161124155130.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.17"># CAD 系列課程
-
-## 計算機程式
-## 網際內容管理
-&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
-## 協同產品設計實習
-也在研習&lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;、&lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;與&lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;
-
-</t>
+<t tx="leo.20161124155130.13">###第三週
+各組選兩部 Hyperworks影片並編寫逐字稿
+&lt;iframe src="https://player.vimeo.com/video/208468611" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20161124155130.2">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
@@ -409,18 +332,10 @@ Empty Page fossil init 個人倉儲 會給一組帳戶密碼
 
 						
 </t>
-<t tx="leo.20161124155130.28"># 建立fossil小組並新增組員
+<t tx="leo.20161124155130.28">###第四週
+# 建立fossil小組並新增組員
 
-&lt;a href="https://mde2a2.kmol.info/cdag3/wiki"&gt;個人fossil倉儲&lt;/a&gt;</t>
-<t tx="leo.20161124155130.29">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
+&lt;a href="https://mde2a2.kmol.info/cdag3/wiki"&gt;第三組fossil倉儲&lt;/a&gt;</t>
 <t tx="leo.20161124155130.3">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
@@ -455,30 +370,6 @@ Empty Page fossil init 個人倉儲 會給一組帳戶密碼
 &lt;/head&gt;
 
 </t>
-<t tx="leo.20161124155130.30">## 下載 miniconda 可攜環境
-
-  * 在電腦教室下載 [mini2016fall.7z](http://140.130.17.17/public/2016fall/mini2016fall_with_leo.7z)
-  * 從外部下載 [mini2016fall.7z](https://140.130.17.101/download/?filepath=/home/yen/cmsimply/wsgi/local_data/downloads/mini2016fall_with_leo.7z)
-  * start.bat 啟動, stop.bat 關閉
-  * 建議存在隨身硬碟中使用
-
-
-</t>
-<t tx="leo.20161124155130.31">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.32">## 學員自評項目
-
-* 上課筆記與心得寫在個人的 2016fallcadp_hw 倉儲 Wiki 中
-* 利用 [ShareX](https://getsharex.com/) 錄製上課操作練習影片
-* 將影片加上說明字幕後, 上傳至個人 [Vimeo](https://vimeo.com/) 與 [Youtube](https://www.youtube.com)
-* 每週更新個人與分組的 Github Pages 投影片與網誌</t>
 <t tx="leo.20161124155130.33">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -491,55 +382,16 @@ Empty Page fossil init 個人倉儲 會給一組帳戶密碼
 
 						
 </t>
-<t tx="leo.20161124155130.35">## 電腦輔助設計實習課程
+<t tx="leo.20161124155130.35">###第五週
+介紹Wiki編輯模式的種類(Fossil Wiki、Markdown、Html)
 
-教學主題
+Solcespace 單連桿轉入 V-rep 進行運動模擬
 
-  * 課程網頁、學員網頁、分組網頁串連
-  * Solvespace 零組件繪圖與機構模擬
-  * OnShape 零組件繪圖與機構模擬
-  * Delta 3D printer 零組件繪圖與模擬
-  * Delta 3D printer 零組件列印組立
-  * 建立網際自評系統
+影片:轉入 V-rep 設定跟運動模擬
 
+&lt;iframe src="https://player.vimeo.com/video/211697923" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/211697923"&gt;虎尾科技大學 機械設計系 40423116 李冠辰 單連趕模擬運動及設定&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-</t>
-<t tx="leo.20161124155130.36">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.37">## Github Pages 網頁
-
-各學員必須完成
-
-  * 個人網頁
-  * Solvespace 零組件繪圖與機構模擬
-  * OnShape 零組件繪圖與機構模擬
-  * Delta 3D printer 零組件繪圖與模擬
-  * 利用 Delta 3D printer 列印零組件並組立
-  * 建立網際自評系統
-</t>
-<t tx="leo.20161124155130.38">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.39">## 操作影片錄製
-
-  * Windows 環境下使用 ShareX
-  * Ubuntu 環境下使用 Kazam
-  * 影片檔岸上傳到 Vimeo
-  * 影片檔案上傳到 Youtube
-  * 在投影片與網誌中嵌入影片檔
 </t>
 <t tx="leo.20161124155130.4">&lt;body&gt;
 @others
@@ -569,109 +421,10 @@ Empty Page fossil init 個人倉儲 會給一組帳戶密碼
 &lt;/script&gt;
 &lt;/body&gt;
 </t>
-<t tx="leo.20161124155130.40">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.41">## Solvespace 實習
-
-  * Solvespace 零件繪製
-  * Solvespace 零件組立
-  * Delta 3D Printer 機構模擬
-  * 平面四連桿機構模擬與驗證
-  * 平面多連桿機構模擬與驗證
-  * Solvespace 程式編譯
-</t>
-<t tx="leo.20161124155130.42">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.43">## Solvespace 四連桿模擬
-
-&lt;img src="w7/cadp_w7_fourbar.png" width= "800" /&gt;
-</t>
-<t tx="leo.20161124155130.44">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.45">## OnShape 實習
-
-  * OnShape 零件繪製
-  * OnShape 零件組立
-  * Delta 3D Printer 機構模擬
-  * 平面四連桿機構模擬與驗證
-  * 平面多連桿機構模擬與驗證
-  * Featurescript 範例操作
-</t>
-<t tx="leo.20161124155130.46">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.47">## OnShape 實習
-
-  * 請根據[Nutcracker手冊](http://chiamingyen.github.io/kmolab_data/files/ProEMechanism.pdf)說明完成零件繪製
-  * 請完成 Nutcracker 零件組立
-  * 請完成與手冊格式類似的 pdf 導引教材 (How？)
-  * 請完成零件繪製教學影片(語音或字幕說明)並上傳到 Vimeo 與 Youtube
-  * 若採用 Solvespace, 可否完成上述相同零組件繪製與組立?
-  * 如何精確得知機構運動過程的約束位置?
-</t>
-<t tx="leo.20161124155130.48">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.49">## 機電資產品的設計考量
-
-  * 請收集與 Delta 3D printer 有關的資料
-  * 請設法利用 CAD 套件完成零組件繪製與模擬
-  * 上述模擬過程對於產品的開發有何用意?
-  * 請討論如何完成一台可以正常列印的 Delta Printer？
-
-</t>
 <t tx="leo.20161124155130.5">&lt;div class="reveal"&gt;
 @others
 &lt;/div&gt;
 
-</t>
-<t tx="leo.20161124155130.50">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.51">## Flask 網際程式
-
-  * 以 CMSimfly 為例
-  * 以 PyGrouf 為例
-  * 以 Jupyterhub 為例
 </t>
 <t tx="leo.20161124155130.52">&lt;section&gt;
 @others
@@ -685,12 +438,11 @@ Empty Page fossil init 個人倉儲 會給一組帳戶密碼
 
 						
 </t>
-<t tx="leo.20161124155130.54"># Github 倉儲網頁
+<t tx="leo.20161124155130.54">###第六週
+###四連桿導入vrep運動模擬及設定
 
-####建立個人 Github 網頁 (帳號.github.io)
-####建立個人課程作業網頁 (納入投影片與網誌架構)
-####組長建立分組的評量網頁 (納入投影片與網誌架構)
-</t>
+&lt;iframe src="https://player.vimeo.com/video/211701804" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/211701804"&gt;虎尾科技大學 機械設計系 40423116 李冠辰&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="leo.20161124155130.55">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -700,28 +452,10 @@ Empty Page fossil init 個人倉儲 會給一組帳戶密碼
 
 						
 </t>
-<t tx="leo.20161124155130.56"># 學員作業網頁定版
+<t tx="leo.20161124155130.56">###八連桿導入vrep運動模擬及設定
 
-###個人作業網頁內容可以隨時改版
-###分組評量網頁必須在指定時間前定版
-###Github 倉儲 gh-pages分支與子模組應用
-</t>
-<t tx="leo.20161124155130.57">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161124155130.58"># Github 倉儲拉回請求
-
-####分組倉儲 Collaborators 設定
-####分組倉儲版本 Pull Requests 練習
-####各組員實際操作影片錄製
-####操作影片加字幕以及影片檔相加
-</t>
+&lt;iframe src="https://player.vimeo.com/video/211696265" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/211696265"&gt;虎尾科技大學 機械設計系 40423116 李冠辰 八連桿模擬運動及設定&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="leo.20161124155130.59">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -827,9 +561,11 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161124155610.2">&lt;section&gt;
-&lt;h2&gt;vrep運動模擬&lt;/h2&gt;
-</t>
+<t tx="leo.20161124155610.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20170302111235.1"></t>
 <t tx="leo.20170309094354.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -851,9 +587,19 @@ make.start()
 </t>
 <t tx="leo.20170309101556.2">&lt;h2&gt;利用onshape繪製四連桿並組合&lt;/h2&gt;
 
-
+&lt;iframe src="2017springcd/w1/40423116_fourbar.html"width="800" height="600"&gt;&lt;/iframe&gt;
 
 
 </t>
+<t tx="leo.20170406090403.1">###第二週
+###多連桿組合
+&lt;iframe src="https://player.vimeo.com/video/208828038" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/208828038"&gt;組合多連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20170406090438.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170406090438.2">&lt;iframe src="2017springcd/w2/bar.html"width="800" height="600"&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
