@@ -16,7 +16,7 @@ brython(1);
 
 &lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
 
-&lt;canvas id="fourbar_40423116" width="600" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="fourbar_40423116" width="1200" height="800"&gt;&lt;/canvas&gt;
 
 &lt;div id="container1"&gt;&lt;/div&gt;
 
