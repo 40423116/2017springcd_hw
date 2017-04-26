@@ -16,9 +16,9 @@
 &lt;p&gt;(四) 分組協同零件展示&lt;/p&gt;
 &lt;h1&gt;4.零件展示&lt;/h1&gt;
 &lt;p&gt;&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
-&lt;script src="./../data/madeleine/src/lib/stats.js"&gt;&lt;/script&gt;
-&lt;script src="./../data/madeleine/src/lib/detector.js"&gt;&lt;/script&gt;
-&lt;script src="./../data/madeleine/src/lib/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/three.min.js"&gt;&lt;/script&gt;
 &lt;script src="./../data/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
 
