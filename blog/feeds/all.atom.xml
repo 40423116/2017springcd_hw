@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T12:00:00+08:00</updated><entry><title>2017springcd_hw 第十週</title><link href="./2017springcd_hw-di-shi-zhou.html" rel="alternate"></link><published>2017-04-20T12:00:00+08:00</published><updated>2017-04-20T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-20:./2017springcd_hw-di-shi-zhou.html</id><summary type="html">&lt;p&gt;四連桿機構協同 Trace Point 查驗&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T12:16:00+08:00</updated><entry><title>協同產品設計實習 ag3期中考報告</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html" rel="alternate"></link><published>2017-04-20T12:16:00+08:00</published><updated>2017-04-20T12:16:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-20:./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html</id><summary type="html">&lt;p&gt;期中考報告&lt;/p&gt;
 
 
-&lt;!-- 導入 brython.js --&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
 
-&lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
 
-&lt;!-- 啟動 brython() --&gt;
+&lt;!-- 啟動 Brython --&gt;
 
 &lt;script&gt;
 window.onload=function(){
@@ -14,9 +15,9 @@ brython(1);
 }
 &lt;/script&gt;
 
-&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
 
-&lt;canvas id="fourbar_40423116" width="1200" height="800"&gt;&lt;/canvas&gt;
+&lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
 
 &lt;div id="container1"&gt;&lt;/div&gt;
 
@@ -44,12 +45,6 @@ ctx.transform(1, 0, 0, -1, canvas.width/2+250, canvas.height/2+100)
 # 畫出 x 與 y 座標線
 # 各座標值放大 8 倍
 ratio = 8
-'''
-ctx.moveTo(0, 0)
-ctx.lineTo(0, 100)
-ctx.moveTo(0, 0)
-ctx.lineTo(100, 0)
-'''
 ctx.moveTo(0, 0)
 ctx.lineTo(-30*ratio, 0)
 start_point = fourbar_list[0].split(",")
@@ -62,7 +57,7 @@ for data in fourbar_list[1:]:
     #container1 &lt;= html.BR()
     ctx.lineTo(float(point[0])*ratio, float(point[1])*ratio)
 # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-ctx.strokeStyle = "blue"
+ctx.strokeStyle = "red"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()

@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>2017springcd_hw 第十週 - 40423116 協同產品設計實習</title>
+    <title>協同產品設計實習 ag3期中考報告 - 40423116 協同產品設計實習</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,17 +166,17 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./2017springcd_hw-di-shi-zhou.html">
+<link rel="canonical" href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html">
 
         <meta name="author" content="40423116" />
         <meta name="keywords" content="作業" />
-        <meta name="description" content="四連桿機構協同 Trace Point 查驗" />
+        <meta name="description" content="期中考報告" />
 
         <meta property="og:site_name" content="40423116 協同產品設計實習" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="2017springcd_hw 第十週"/>
-        <meta property="og:url" content="./2017springcd_hw-di-shi-zhou.html"/>
-        <meta property="og:description" content="四連桿機構協同 Trace Point 查驗"/>
+        <meta property="og:title" content="協同產品設計實習 ag3期中考報告"/>
+        <meta property="og:url" content="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html"/>
+        <meta property="og:description" content="期中考報告"/>
         <meta property="article:published_time" content="2017-04-20" />
             <meta property="article:section" content="2017springcd_hw" />
             <meta property="article:tag" content="作業" />
@@ -290,10 +290,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./2017springcd_hw-di-shi-zhou.html"
+                    <a href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html"
                        rel="bookmark"
-                       title="Permalink to 2017springcd_hw 第十週">
-                        2017springcd_hw 第十週
+                       title="Permalink to 協同產品設計實習 ag3期中考報告">
+                        協同產品設計實習 ag3期中考報告
                     </a>
                 </h1>
             </header>
@@ -303,7 +303,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-04-20T12:00:00+08:00"> Thu 20 April 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-04-20T12:16:00+08:00"> Thu 20 April 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423116.html"><i class="fa fa-user"></i> 40423116</a>
@@ -315,14 +315,15 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>四連桿機構協同 Trace Point 查驗</p>
+                <p>期中考報告</p>
 
 
-<!-- 導入 brython.js -->
+<!-- 導入 Brython 標準程式庫 -->
 
-<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
 
-<!-- 啟動 brython() -->
+<!-- 啟動 Brython -->
 
 <script>
 window.onload=function(){
@@ -330,9 +331,9 @@ brython(1);
 }
 </script>
 
-<!-- 以下利用 Brython 程式執行繪圖 -->
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
 
-<canvas id="fourbar_40423116" width="1200" height="800"></canvas>
+<canvas id="fourbar" width="600" height="400"></canvas>
 
 <div id="container1"></div>
 
@@ -360,12 +361,6 @@ ctx.transform(1, 0, 0, -1, canvas.width/2+250, canvas.height/2+100)
 # 畫出 x 與 y 座標線
 # 各座標值放大 8 倍
 ratio = 8
-'''
-ctx.moveTo(0, 0)
-ctx.lineTo(0, 100)
-ctx.moveTo(0, 0)
-ctx.lineTo(100, 0)
-'''
 ctx.moveTo(0, 0)
 ctx.lineTo(-30*ratio, 0)
 start_point = fourbar_list[0].split(",")
@@ -378,7 +373,7 @@ for data in fourbar_list[1:]:
     #container1 <= html.BR()
     ctx.lineTo(float(point[0])*ratio, float(point[1])*ratio)
 # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-ctx.strokeStyle = "blue"
+ctx.strokeStyle = "red"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
@@ -398,8 +393,8 @@ ctx.closePath()
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./2017springcd_hw-di-shi-zhou.html">
-                            2017springcd_hw 第十週
+                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html">
+                            協同產品設計實習 ag3期中考報告
                         </a>
                     </li>
                     <li class="list-group-item">

@@ -18,7 +18,7 @@
 <v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
-<v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
+<v t="amd.20151215180106.1"><vh>設定與開發</vh>
 <v t="leo.20161124155130.1" a="E"><vh>@clean index.html</vh>
 <v t="leo.20161124155130.2" a="E"><vh>html</vh>
 <v t="leo.20161124155130.3"><vh>head</vh></v>
