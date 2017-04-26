@@ -16,9 +16,9 @@
 &lt;p&gt;(四) 分組協同零件展示&lt;/p&gt;
 &lt;h1&gt;4.零件展示&lt;/h1&gt;
 &lt;p&gt;&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
-&lt;script src="./../data/madeleine/src/stats.js"&gt;&lt;/script&gt;
-&lt;script src="./../data/madeleine/src/detector.js"&gt;&lt;/script&gt;
-&lt;script src="./../data/madeleine/src/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/lib/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/lib/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/lib/three.min.js"&gt;&lt;/script&gt;
 &lt;script src="./../data/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
 
@@ -50,6 +50,11 @@ select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 
 
 &lt;p&gt;四連桿機構Trace Point查驗&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../2017springcd/midterm2.png"width="800" /&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/214856353" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214856353"&gt;虎尾科技大學 機械設計系 40423116 李冠辰_期中報告03&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
