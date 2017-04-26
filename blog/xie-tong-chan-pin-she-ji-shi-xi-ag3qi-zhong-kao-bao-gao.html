@@ -318,17 +318,51 @@ init_mathjax();
                 <p>期中考報告</p>
 
 
-<p>(一) Fossil Server 實習查驗
-<a href="https://mde2a2.kmol.info/midterm/ag3/home">40423116</a>
-(二) 四連桿機構協同 Trace Point 查驗
-<a href="https://40423116.github.io/2017springcd_hw/blog/xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html">40423116</a>
-(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗</p>
+<p>(一) Fossil Server 實習查驗</p>
+<p><a href="https://mde2a2.kmol.info/midterm/ag3/home">ag3</a></p>
+<p>(二) 四連桿機構協同 Trace Point 查驗</p>
+<p><a href="https://40423116.github.io/2017springcd_hw/blog/si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html">40423116</a></p>
+<p>(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗</p>
 <h1>製作</h1>
 <p><iframe src="https://player.vimeo.com/video/214840699" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/214840699">虎尾科技大學 機械設計系 40423116 李冠辰_期中報告01</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
 <h1>組裝</h1>
 <p><iframe src="https://player.vimeo.com/video/214840482" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/214840482">虎尾科技大學 機械設計系 40423116 李冠辰_期中報告02</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<p>(四) 分組協同零件展示</p>
+<h1>4.零件展示</h1>
+<p><link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../data/madeleine/src/stats.js"></script>
+<script src="./../data/madeleine/src/detector.js"></script>
+<script src="./../data/madeleine/src/three.min.js"></script>
+<script src="./../data/madeleine/src/Madeleine.js"></script></p>
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/work40423116.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+></script>
+
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+></script>
+
+<script src="./../data/w9/loader.js"></script>
+
+<script src="./../data/w9/stl.js"></script>
+
+<div>
+select stl file: <input type="file" id="file" /> or drop stl file
+</div>
+
+<div id="view"></div>
             </div>
             <!-- /.entry-content -->
         </article>

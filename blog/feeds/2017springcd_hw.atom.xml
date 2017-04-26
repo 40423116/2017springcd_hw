@@ -2,17 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/2017springcd_hw.atom.xml" rel="self"></link><id>./</id><updated>2017-04-21T12:15:00+08:00</updated><entry><title>協同產品設計實習 ag3期中考報告</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html" rel="alternate"></link><published>2017-04-21T12:15:00+08:00</published><updated>2017-04-21T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-21:./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html</id><summary type="html">&lt;p&gt;期中考報告&lt;/p&gt;
 
 
-&lt;p&gt;(一) Fossil Server 實習查驗
-&lt;a href="https://mde2a2.kmol.info/midterm/ag3/home"&gt;40423116&lt;/a&gt;
-(二) 四連桿機構協同 Trace Point 查驗
-&lt;a href="https://40423116.github.io/2017springcd_hw/blog/xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html"&gt;40423116&lt;/a&gt;
-(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/p&gt;
+&lt;p&gt;(一) Fossil Server 實習查驗&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mde2a2.kmol.info/midterm/ag3/home"&gt;ag3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(二) 四連桿機構協同 Trace Point 查驗&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423116.github.io/2017springcd_hw/blog/si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html"&gt;40423116&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/p&gt;
 &lt;h1&gt;製作&lt;/h1&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214840699" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214840699"&gt;虎尾科技大學 機械設計系 40423116 李冠辰_期中報告01&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h1&gt;組裝&lt;/h1&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214840482" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/214840482"&gt;虎尾科技大學 機械設計系 40423116 李冠辰_期中報告02&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>四連桿機構協同 Trace Point 查驗</title><link href="./si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html" rel="alternate"></link><published>2017-04-20T12:16:00+08:00</published><updated>2017-04-20T12:16:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-20:./si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html</id><summary type="html">&lt;p&gt;四連桿機構協同 Trace Point 查驗&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214840482"&gt;虎尾科技大學 機械設計系 40423116 李冠辰_期中報告02&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;(四) 分組協同零件展示&lt;/p&gt;
+&lt;h1&gt;4.零件展示&lt;/h1&gt;
+&lt;p&gt;&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
+&lt;script src="./../data/madeleine/src/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/work40423116.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+&lt;/script&gt;
+
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="./../data/w9/loader.js"&gt;&lt;/script&gt;
+
+&lt;script src="./../data/w9/stl.js"&gt;&lt;/script&gt;
+
+&lt;div&gt;
+select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
+&lt;/div&gt;
+
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="作業"></category></entry><entry><title>四連桿機構協同 Trace Point 查驗</title><link href="./si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html" rel="alternate"></link><published>2017-04-20T12:16:00+08:00</published><updated>2017-04-20T12:16:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-20:./si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html</id><summary type="html">&lt;p&gt;四連桿機構協同 Trace Point 查驗&lt;/p&gt;
 
 
 &lt;p&gt;四連桿機構Trace Point查驗&lt;/p&gt;
@@ -31,7 +65,7 @@ brython(1);
 
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
 
-&lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
+&lt;canvas id="fourbar" width="600" height="1000"&gt;&lt;/canvas&gt;
 
 &lt;div id="container1"&gt;&lt;/div&gt;
 
