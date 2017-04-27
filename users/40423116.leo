@@ -116,7 +116,7 @@
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>40423116 所寫的網誌文章</vh>
-<v t="amd.20160727114506.1" a="E"><vh>2016fallcadp_hw</vh>
+<v t="amd.20160727114506.1"><vh>2016fallcadp_hw</vh>
 <v t="amd.20160727120222.1"><vh>@edit 2016-w1.md</vh></v>
 <v t="leo.20161027163221.1"><vh>@edit 2016-w2.md</vh></v>
 <v t="leo.20161102005700.1"><vh>@edit 2016-w7.md</vh></v>
