@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Authors - 40423116 協同產品設計實習</title>
+    <title>2017springcd_hw 第十週 - 40423116 協同產品設計實習</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,15 +166,21 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
+<link rel="canonical" href="./2017springcd_hw-di-shi-zhou.html">
 
         <meta name="author" content="40423116" />
+        <meta name="keywords" content="作業" />
+        <meta name="description" content="期中考報告" />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="40423116 協同產品設計實習" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="40423116 協同產品設計實習"/>
-        <meta property="og:url" content="."/>
-        <meta property="og:description" content="40423116 協同產品設計實習"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="2017springcd_hw 第十週"/>
+        <meta property="og:url" content="./2017springcd_hw-di-shi-zhou.html"/>
+        <meta property="og:description" content="期中考報告"/>
+        <meta property="article:published_time" content="2017-04-27" />
+            <meta property="article:section" content="2017springcd_hw" />
+            <meta property="article:tag" content="作業" />
+            <meta property="article:author" content="40423116" />
 
 
     <!-- Bootstrap -->
@@ -258,7 +264,7 @@ init_mathjax();
                         <li >
                             <a href="./category/2016fallcadp_hw.html">2016fallcadp_hw</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="./category/2017springcd_hw.html">2017springcd_hw</a>
                         </li>
             </ul>
@@ -280,8 +286,145 @@ init_mathjax();
     <div class="row">
         <div class="col-sm-9">
 
-    <h1>Authors on 40423116 協同產品設計實習</h1>
-        <li><a href="./author/40423116.html">40423116</a> (18)</li>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./2017springcd_hw-di-shi-zhou.html"
+                       rel="bookmark"
+                       title="Permalink to 2017springcd_hw 第十週">
+                        2017springcd_hw 第十週
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-04-27T12:15:00+08:00"> Thu 27 April 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423116.html"><i class="fa fa-user"></i> 40423116</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/zuo-ye.html">作業</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>期中考報告</p>
+
+
+<h1>python 運算加減乘除</h1>
+<iframe src="https://player.vimeo.com/video/214950724" width="640" height="626" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/214950724">虎尾科技大學機械設計系 40423116李冠辰 python加減乘除</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<!--<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>-->
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<canvas id="fourbar" width="800" height="600"></canvas>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+# 導入 fourbar 
+import fourbar
+# 準備繪圖畫布
+canvas = doc["fourbar"]
+ctx = canvas.getContext("2d")
+
+# y 軸向上移動 pixel 數
+y_lift = 150
+
+# 將 y 轉為向上為正
+def newy(y):
+    return (canvas.height - y - y_lift)
+
+# 所有尺寸放大倍數
+ratio = 4
+
+# 畫線函式
+def line(ctx, ax, ay, bx, by, width=1, color='blue'):
+    ctx.beginPath()
+    ctx.strokeStyle = color
+    ctx.lineWidth = width
+    # 直接轉換 y 座標
+    ctx.moveTo(ax*ratio, newy(ay*ratio))
+    ctx.lineTo(bx*ratio, newy(by*ratio))
+    ctx.stroke()
+    ctx.closePath()
+
+degree = math.pi/180
+ax = 60
+ay = 0
+bx = 120
+by = 0
+bac = 0
+ac = 30
+cd = 50
+db = 60
+ce = 50
+ed = 50
+
+# 利用 fourbar 物件建立案例
+f = fourbar.fourbar(ax = 60, ay = 0, bx = 120, by = 0, bac = 0, ac = 30, cd = 50, db = 60, ce = 50, ed = 50)
+
+# 兩條軸線
+#line(ctx, 0, 0, 0, 100, 3, 'blue')
+#line(ctx, 0, 0, 100, 0, 3, 'blue')
+# base line
+#line(ctx, ax, ay, bx, by, 3, 'red')
+f.bac = 0
+for j in range(10):
+    f.ce = 50 - j *3
+    # link1
+    line(ctx, f.ax, f.ay, f.cx, f.cy, 3, 'blue')
+    # link2
+    line(ctx, f.cx, f.cy, f.dx, f.dy, 3, 'blue')
+    # link3
+    line(ctx, f.dx, f.dy, f.bx, f.by, 3, 'blue')
+    # triangle sides
+    line(ctx, f.cx, f.cy, f.ex, f.ey, 1, 'black')
+    line(ctx, f.dx, f.dy, f.ex, f.ey, 1, 'black')
+    # 進入 e 點輪廓繪製流程
+    # f.bac = 0 開始繪圖
+    # 直接轉換 y 座標
+    ctx.moveTo(f.ex*ratio, newy(f.ey*ratio))
+    ctx.beginPath()
+    ctx.strokeStyle = 'red'
+    ctx.lineWidth = 1
+    for i in range(0, 365, 5):
+        f.bac = i *degree
+        ctx.lineTo(f.ex*ratio, newy(f.ey*ratio))
+    ctx.stroke()
+    ctx.closePath()
+</script>
+
+<pre>            </pre>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>

@@ -1,5 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-21T12:15:00+08:00</updated><entry><title>協同產品設計實習 ag3期中考報告</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html" rel="alternate"></link><published>2017-04-21T12:15:00+08:00</published><updated>2017-04-21T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-21:./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html</id><summary type="html">&lt;p&gt;期中考報告&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T12:15:00+08:00</updated><entry><title>2017springcd_hw 第十週</title><link href="./2017springcd_hw-di-shi-zhou.html" rel="alternate"></link><published>2017-04-27T12:15:00+08:00</published><updated>2017-04-27T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-27:./2017springcd_hw-di-shi-zhou.html</id><summary type="html">&lt;p&gt;期中考報告&lt;/p&gt;
+
+
+&lt;h1&gt;python 運算加減乘除&lt;/h1&gt;
+&lt;iframe src="https://player.vimeo.com/video/214950724" width="640" height="626" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214950724"&gt;虎尾科技大學機械設計系 40423116李冠辰 python加減乘除&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;!--&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;--&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;canvas id="fourbar" width="800" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+# 導入 fourbar 
+import fourbar
+# 準備繪圖畫布
+canvas = doc["fourbar"]
+ctx = canvas.getContext("2d")
+
+# y 軸向上移動 pixel 數
+y_lift = 150
+
+# 將 y 轉為向上為正
+def newy(y):
+    return (canvas.height - y - y_lift)
+
+# 所有尺寸放大倍數
+ratio = 4
+
+# 畫線函式
+def line(ctx, ax, ay, bx, by, width=1, color='blue'):
+    ctx.beginPath()
+    ctx.strokeStyle = color
+    ctx.lineWidth = width
+    # 直接轉換 y 座標
+    ctx.moveTo(ax*ratio, newy(ay*ratio))
+    ctx.lineTo(bx*ratio, newy(by*ratio))
+    ctx.stroke()
+    ctx.closePath()
+
+degree = math.pi/180
+ax = 60
+ay = 0
+bx = 120
+by = 0
+bac = 0
+ac = 30
+cd = 50
+db = 60
+ce = 50
+ed = 50
+
+# 利用 fourbar 物件建立案例
+f = fourbar.fourbar(ax = 60, ay = 0, bx = 120, by = 0, bac = 0, ac = 30, cd = 50, db = 60, ce = 50, ed = 50)
+
+# 兩條軸線
+#line(ctx, 0, 0, 0, 100, 3, 'blue')
+#line(ctx, 0, 0, 100, 0, 3, 'blue')
+# base line
+#line(ctx, ax, ay, bx, by, 3, 'red')
+f.bac = 0
+for j in range(10):
+    f.ce = 50 - j *3
+    # link1
+    line(ctx, f.ax, f.ay, f.cx, f.cy, 3, 'blue')
+    # link2
+    line(ctx, f.cx, f.cy, f.dx, f.dy, 3, 'blue')
+    # link3
+    line(ctx, f.dx, f.dy, f.bx, f.by, 3, 'blue')
+    # triangle sides
+    line(ctx, f.cx, f.cy, f.ex, f.ey, 1, 'black')
+    line(ctx, f.dx, f.dy, f.ex, f.ey, 1, 'black')
+    # 進入 e 點輪廓繪製流程
+    # f.bac = 0 開始繪圖
+    # 直接轉換 y 座標
+    ctx.moveTo(f.ex*ratio, newy(f.ey*ratio))
+    ctx.beginPath()
+    ctx.strokeStyle = 'red'
+    ctx.lineWidth = 1
+    for i in range(0, 365, 5):
+        f.bac = i *degree
+        ctx.lineTo(f.ex*ratio, newy(f.ey*ratio))
+    ctx.stroke()
+    ctx.closePath()
+&lt;/script&gt;
+
+&lt;pre&gt;            &lt;/pre&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 ag3期中考報告</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html" rel="alternate"></link><published>2017-04-21T12:15:00+08:00</published><updated>2017-04-21T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-21:./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html</id><summary type="html">&lt;p&gt;期中考報告&lt;/p&gt;
 
 
 &lt;p&gt;(一) Fossil Server 實習查驗&lt;/p&gt;
