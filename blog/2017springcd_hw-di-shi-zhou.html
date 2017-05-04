@@ -340,143 +340,25 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
 
-<canvas id="fourbar" width="800" height="600"></canvas>
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container" width="600" height="400"></div>
 
 <script type="text/python3">
 from browser import document as doc
 from browser import html
 import math
-# 導入 fourbar 
-import fourbar
-# 準備繪圖畫布
-canvas = doc["fourbar"]
-ctx = canvas.getContext("2d")
-
- '''
- # First of all, the import of some libraries
-from browser import document as doc
-from browser import html
-
-# All the elements will be inserted in the div with the "container" id
 container = doc['container']
-
-# We create a new div element
-newdiv = html.DIV(id = "new-div")
-# Now we add some style
-newdiv.style = {"padding": "5px", 
-               "backgroundColor": "#ADD8E6"}
-
-# Now, lets add a table with a column with numbers and a
-# column with a word on each cell
-text = "Brython is really cool"
-textlist = text.split()
-table = html.TABLE()
-for i, word in enumerate(textlist):
-    table <= html.TR(html.TD(i + 1) + 
-                     html.TD(word))
-# Now we add some style to the table
-table.style = {"padding": "5px", 
-               "backgroundColor": "#aaaaaa",
-               "width": "100%"}
-# Now we add the table to the new div previously created
-newdiv <= table + html.BR()
-
-# a form? why not?
-form = html.FORM()
-input1 = html.INPUT(type="text", name="firstname", value="First name")
-input2 = html.INPUT(type="text", name="lastname", value="Last name")
-input3 = html.BUTTON("Button with no action!")
-form <= input1 + html.BR() + input2 + html.BR() + input3
-
-newdiv <= form + html.BR()
-
-# Finally, we will add something more 'HTML5istic', a canvas with
-# a color gradient in the newdiv previously created and below the form
-canvas = html.CANVAS(width = 300, height = 300)
-canvas.style = {"width": "100%"}
-ctx = canvas.getContext('2d')
-ctx.rect(0, 0, 300, 300)
-grd = ctx.createRadialGradient(150, 150, 10, 150, 150, 150)
-grd.addColorStop(0, '#8ED6FF')
-grd.addColorStop(1, '#004CB3')
-ctx.fillStyle = grd
-ctx.fill()
-
-newdiv <= canvas
-
-# And finally we append the newdiv element
-# to the parent, in this case the div with the "container" id
-container <= newdiv
- '''
-
-# y 軸向上移動 pixel 數
-y_lift = 150
-
-# 將 y 轉為向上為正
-def newy(y):
-    return (canvas.height - y - y_lift)
-
-# 所有尺寸放大倍數
-ratio = 4
-
-# 畫線函式
-def line(ctx, ax, ay, bx, by, width=1, color='blue'):
-    ctx.beginPath()
-    ctx.strokeStyle = color
-    ctx.lineWidth = width
-    # 直接轉換 y 座標
-    ctx.moveTo(ax*ratio, newy(ay*ratio))
-    ctx.lineTo(bx*ratio, newy(by*ratio))
-    ctx.stroke()
-    ctx.closePath()
-
 degree = math.pi/180
-ax = 60
-ay = 0
-bx = 120
-by = 0
-bac = 0
-ac = 30
-cd = 50
-db = 60
-ce = 50
-ed = 50
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
 
-# 利用 fourbar 物件建立案例
-f = fourbar.fourbar(ax = 60, ay = 0, bx = 120, by = 0, bac = 0, ac = 30, cd = 50, db = 60, ce = 50, ed = 50)
-
-# 兩條軸線
-#line(ctx, 0, 0, 0, 100, 3, 'blue')
-#line(ctx, 0, 0, 100, 0, 3, 'blue')
-# base line
-#line(ctx, ax, ay, bx, by, 3, 'red')
-f.bac = 0
-for j in range(10):
-    f.ce = 50 - j *3
-    # link1
-    line(ctx, f.ax, f.ay, f.cx, f.cy, 3, 'blue')
-    # link2
-    line(ctx, f.cx, f.cy, f.dx, f.dy, 3, 'blue')
-    # link3
-    line(ctx, f.dx, f.dy, f.bx, f.by, 3, 'blue')
-    # triangle sides
-    line(ctx, f.cx, f.cy, f.ex, f.ey, 1, 'black')
-    line(ctx, f.dx, f.dy, f.ex, f.ey, 1, 'black')
-    # 進入 e 點輪廓繪製流程
-    # f.bac = 0 開始繪圖
-    # 直接轉換 y 座標
-    ctx.moveTo(f.ex*ratio, newy(f.ey*ratio))
-    ctx.beginPath()
-    ctx.strokeStyle = 'red'
-    ctx.lineWidth = 1
-    for i in range(0, 365, 5):
-        f.bac = i *degree
-        ctx.lineTo(f.ex*ratio, newy(f.ey*ratio))
-    ctx.stroke()
-    ctx.closePath()
 </script>
 
-<pre>            </pre>
+<p><button id="button1">按下取 a b 值</button></p>
             </div>
             <!-- /.entry-content -->
         </article>

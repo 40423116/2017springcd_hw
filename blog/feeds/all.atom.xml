@@ -24,143 +24,25 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
 
-&lt;canvas id="fourbar" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
 from browser import html
 import math
-# 導入 fourbar 
-import fourbar
-# 準備繪圖畫布
-canvas = doc["fourbar"]
-ctx = canvas.getContext("2d")
-
- '''
- # First of all, the import of some libraries
-from browser import document as doc
-from browser import html
-
-# All the elements will be inserted in the div with the "container" id
 container = doc['container']
-
-# We create a new div element
-newdiv = html.DIV(id = "new-div")
-# Now we add some style
-newdiv.style = {"padding": "5px", 
-               "backgroundColor": "#ADD8E6"}
-
-# Now, lets add a table with a column with numbers and a
-# column with a word on each cell
-text = "Brython is really cool"
-textlist = text.split()
-table = html.TABLE()
-for i, word in enumerate(textlist):
-    table &lt;= html.TR(html.TD(i + 1) + 
-                     html.TD(word))
-# Now we add some style to the table
-table.style = {"padding": "5px", 
-               "backgroundColor": "#aaaaaa",
-               "width": "100%"}
-# Now we add the table to the new div previously created
-newdiv &lt;= table + html.BR()
-
-# a form? why not?
-form = html.FORM()
-input1 = html.INPUT(type="text", name="firstname", value="First name")
-input2 = html.INPUT(type="text", name="lastname", value="Last name")
-input3 = html.BUTTON("Button with no action!")
-form &lt;= input1 + html.BR() + input2 + html.BR() + input3
-
-newdiv &lt;= form + html.BR()
-
-# Finally, we will add something more 'HTML5istic', a canvas with
-# a color gradient in the newdiv previously created and below the form
-canvas = html.CANVAS(width = 300, height = 300)
-canvas.style = {"width": "100%"}
-ctx = canvas.getContext('2d')
-ctx.rect(0, 0, 300, 300)
-grd = ctx.createRadialGradient(150, 150, 10, 150, 150, 150)
-grd.addColorStop(0, '#8ED6FF')
-grd.addColorStop(1, '#004CB3')
-ctx.fillStyle = grd
-ctx.fill()
-
-newdiv &lt;= canvas
-
-# And finally we append the newdiv element
-# to the parent, in this case the div with the "container" id
-container &lt;= newdiv
- '''
-
-# y 軸向上移動 pixel 數
-y_lift = 150
-
-# 將 y 轉為向上為正
-def newy(y):
-    return (canvas.height - y - y_lift)
-
-# 所有尺寸放大倍數
-ratio = 4
-
-# 畫線函式
-def line(ctx, ax, ay, bx, by, width=1, color='blue'):
-    ctx.beginPath()
-    ctx.strokeStyle = color
-    ctx.lineWidth = width
-    # 直接轉換 y 座標
-    ctx.moveTo(ax*ratio, newy(ay*ratio))
-    ctx.lineTo(bx*ratio, newy(by*ratio))
-    ctx.stroke()
-    ctx.closePath()
-
 degree = math.pi/180
-ax = 60
-ay = 0
-bx = 120
-by = 0
-bac = 0
-ac = 30
-cd = 50
-db = 60
-ce = 50
-ed = 50
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
 
-# 利用 fourbar 物件建立案例
-f = fourbar.fourbar(ax = 60, ay = 0, bx = 120, by = 0, bac = 0, ac = 30, cd = 50, db = 60, ce = 50, ed = 50)
-
-# 兩條軸線
-#line(ctx, 0, 0, 0, 100, 3, 'blue')
-#line(ctx, 0, 0, 100, 0, 3, 'blue')
-# base line
-#line(ctx, ax, ay, bx, by, 3, 'red')
-f.bac = 0
-for j in range(10):
-    f.ce = 50 - j *3
-    # link1
-    line(ctx, f.ax, f.ay, f.cx, f.cy, 3, 'blue')
-    # link2
-    line(ctx, f.cx, f.cy, f.dx, f.dy, 3, 'blue')
-    # link3
-    line(ctx, f.dx, f.dy, f.bx, f.by, 3, 'blue')
-    # triangle sides
-    line(ctx, f.cx, f.cy, f.ex, f.ey, 1, 'black')
-    line(ctx, f.dx, f.dy, f.ex, f.ey, 1, 'black')
-    # 進入 e 點輪廓繪製流程
-    # f.bac = 0 開始繪圖
-    # 直接轉換 y 座標
-    ctx.moveTo(f.ex*ratio, newy(f.ey*ratio))
-    ctx.beginPath()
-    ctx.strokeStyle = 'red'
-    ctx.lineWidth = 1
-    for i in range(0, 365, 5):
-        f.bac = i *degree
-        ctx.lineTo(f.ex*ratio, newy(f.ey*ratio))
-    ctx.stroke()
-    ctx.closePath()
 &lt;/script&gt;
 
-&lt;pre&gt;            &lt;/pre&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 ag3期中考報告</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html" rel="alternate"></link><published>2017-04-21T12:15:00+08:00</published><updated>2017-04-21T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-21:./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html</id><summary type="html">&lt;p&gt;期中考報告&lt;/p&gt;
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 ag3期中考報告</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html" rel="alternate"></link><published>2017-04-21T12:15:00+08:00</published><updated>2017-04-21T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-04-21:./xie-tong-chan-pin-she-ji-shi-xi-ag3qi-zhong-kao-bao-gao.html</id><summary type="html">&lt;p&gt;期中考報告&lt;/p&gt;
 
 
 &lt;p&gt;(一) Fossil Server 實習查驗&lt;/p&gt;
