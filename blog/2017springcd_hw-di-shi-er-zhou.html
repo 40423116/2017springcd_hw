@@ -478,8 +478,8 @@ r17 = canvas_size*n17/(n17+n11+n13)
 r11 = canvas_size*n11/(n17+n11+n13)
 r13 = canvas_size*n11/(n17+n11+n13)
 x17 = x
-x11 = x + r11 + r17
-x13 = x + r13 + r13
+x11 = x + (r11 + r17)
+x13 = x - (r13+r17)
 # 齒數
 n = 17
 # 壓力角
