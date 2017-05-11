@@ -156,18 +156,22 @@ x = (canvas.width)/2
 y = (canvas.height)/2
 n17 = 17
 n11 = 11
-canvas_size = canvas.height*0.8
-r17 = canvas_size*n17/(n17+n11)
-r11 = canvas_size*n11/(n17+n11)
-x17 = x - r17
-x11 = x + r11
+n13 = 13
+canvas_size = canvas.width*0.8
+r17 = canvas_size*n17/(n17+n11+n13)
+r11 = canvas_size*n11/(n17+n11+n13)
+r13 = canvas_size*n11/(n17+n11+n13)
+x17 = x
+x11 = x + r11 + r17
+x13 = x + r13 + r13
 # 齒數
 n = 17
 # 壓力角
 pa = 20
 #gear = Spur(ctx).Gear(x, y, r, n, pa, "blue")
 gear17 = Spur(ctx).Gear(x17, y, r11, n17, pa, "blue")
-gear11 = Spur(ctx).Gear(x17, y, r11, n11, pa, "blue")
+gear11 = Spur(ctx).Gear(x11, y, r11, n11, pa, "blue")
+gear13 = Spur(ctx).Gear(x13, y, r13, n13, pa, "blue")
 
 div = doc["onegear_div"]
 div &lt;= str(canvas.width) + "X" + str(canvas.height)
