@@ -14,67 +14,67 @@
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20160921213353.1"><vh>2016fall 簡報與網誌樣板系統</vh></v>
-<v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
-<v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="amd.20160106095324.1"><vh>@path ./../</vh>
+<v t="leo.20151213173830.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1"><vh>設定與開發</vh>
-<v t="leo.20161124155130.1" a="E"><vh>@clean index.html</vh>
-<v t="leo.20161124155130.2" a="E"><vh>html</vh>
+<v t="leo.20161124155130.1"><vh>@clean index.html</vh>
+<v t="leo.20161124155130.2"><vh>html</vh>
 <v t="leo.20161124155130.3"><vh>head</vh></v>
-<v t="leo.20161124155130.4" a="E"><vh>body</vh>
-<v t="leo.20161124155130.5" a="E"><vh>reveal div</vh>
-<v t="leo.20161124155130.6" a="E"><vh>slides div</vh>
-<v t="leo.20161124155130.7" a="E"><vh>封面投影片</vh>
+<v t="leo.20161124155130.4"><vh>body</vh>
+<v t="leo.20161124155130.5"><vh>reveal div</vh>
+<v t="leo.20161124155130.6"><vh>slides div</vh>
+<v t="leo.20161124155130.7"><vh>封面投影片</vh>
 <v t="leo.20161124155130.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20161124155130.9" a="E"><vh>第一週</vh>
-<v t="leo.20170309094354.1" a="E"><vh>第一頁</vh>
+<v t="leo.20161124155130.9"><vh>第一週</vh>
+<v t="leo.20170309094354.1"><vh>第一頁</vh>
 <v t="leo.20161124155130.10"><vh>內容</vh></v>
 </v>
-<v t="leo.20170309101556.1" a="E"><vh>第二頁</vh>
+<v t="leo.20170309101556.1"><vh>第二頁</vh>
 <v t="leo.20170309101556.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20161124155610.1" a="E"><vh>第二週</vh>
-<v t="leo.20161124155610.2" a="E"><vh>1</vh>
+<v t="leo.20161124155610.1"><vh>第二週</vh>
+<v t="leo.20161124155610.2"><vh>1</vh>
 <v t="leo.20170406090403.1"><vh>1</vh></v>
 </v>
-<v t="leo.20170406090438.1" a="E"><vh>2</vh>
+<v t="leo.20170406090438.1"><vh>2</vh>
 <v t="leo.20170406090438.2"><vh>1</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.11" a="E"><vh>第三週</vh>
-<v t="leo.20161124155130.12" a="E"><vh>1</vh>
+<v t="leo.20161124155130.11"><vh>第三週</vh>
+<v t="leo.20161124155130.12"><vh>1</vh>
 <v t="leo.20161124155130.13"><vh>01</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.26" a="E"><vh>第四週</vh>
-<v t="leo.20161124155130.27" a="E"><vh>1</vh>
+<v t="leo.20161124155130.26"><vh>第四週</vh>
+<v t="leo.20161124155130.27"><vh>1</vh>
 <v t="leo.20161124155130.28"><vh>1</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.33" a="E"><vh>第5週</vh>
-<v t="leo.20161124155130.34" a="E"><vh>1</vh>
+<v t="leo.20161124155130.33"><vh>第5週</vh>
+<v t="leo.20161124155130.34"><vh>1</vh>
 <v t="leo.20161124155130.35"><vh>01</vh></v>
 </v>
 </v>
-<v t="leo.20161124155130.52" a="E"><vh>第6週</vh>
-<v t="leo.20161124155130.53" a="E"><vh>1</vh>
+<v t="leo.20161124155130.52"><vh>第6週</vh>
+<v t="leo.20161124155130.53"><vh>1</vh>
 <v t="leo.20161124155130.54"><vh>01</vh></v>
 </v>
-<v t="leo.20161124155130.55" a="E"><vh>2</vh>
+<v t="leo.20161124155130.55"><vh>2</vh>
 <v t="leo.20161124155130.56"><vh>02</vh></v>
 </v>
 </v>
 <v t="leo.20161124155130.59"><vh>各式內容引用範例</vh>
-<v t="leo.20161124155130.60" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20161124155130.60"><vh>導入數學符號與方程式</vh>
 <v t="leo.20161124155130.61"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20161124155130.62" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20161124155130.62"><vh>導入縮排程式碼</vh>
 <v t="leo.20161124155130.63"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20161124155130.64" a="E"><vh>導入影片</vh>
+<v t="leo.20161124155130.64"><vh>導入影片</vh>
 <v t="leo.20161124155130.65"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -91,12 +91,12 @@
 <v t="leo.20151212173725.1"><vh>@edit pelicanconf.py</vh></v>
 <v t="amd.20151215170221.1"><vh>以下 local_publishconf.py 為近端所使用的設定</vh></v>
 <v t="leo.20151213085752.1"><vh>@edit local_publishconf.py</vh></v>
-<v t="amd.20151215121740.1" a="E"><vh>@path theme</vh>
-<v t="amd.20151215154950.1" a="E"><vh>@path pelican-bootstrap3_local</vh>
-<v t="amd.20151215154950.2" a="E"><vh>@path templates</vh>
+<v t="amd.20151215121740.1"><vh>@path theme</vh>
+<v t="amd.20151215154950.1"><vh>@path pelican-bootstrap3_local</vh>
+<v t="amd.20151215154950.2"><vh>@path templates</vh>
 <v t="amd.20151215154950.3"><vh>@edit base.html</vh></v>
 <v t="amd.20151215154950.4"><vh>@edit search.html</vh></v>
-<v t="amd.20151215162536.1" a="E"><vh>@path includes</vh>
+<v t="amd.20151215162536.1"><vh>@path includes</vh>
 <v t="amd.20151215162510.1"><vh>@edit sidebar.html</vh></v>
 </v>
 <v t="amd.20151215154950.5"><vh>@edit tags.html</vh></v>
@@ -104,8 +104,8 @@
 </v>
 </v>
 <v t="amd.20151215170326.1"><vh>以下在修改或查驗 plugin 目錄下的檔案</vh></v>
-<v t="amd.20151215154225.1" a="E"><vh>@path plugin</vh>
-<v t="amd.20151215154238.1" a="E"><vh>@path tipue_search</vh>
+<v t="amd.20151215154225.1"><vh>@path plugin</vh>
+<v t="amd.20151215154238.1"><vh>@path tipue_search</vh>
 <v t="amd.20151215154248.1"><vh>@edit tipue_search.py</vh></v>
 </v>
 </v>
@@ -143,8 +143,8 @@
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
-<v t="amd.20160106094829.1" a="E"><vh>40423116 所寫的 pages 文章</vh>
+<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094829.1"><vh>40423116 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
