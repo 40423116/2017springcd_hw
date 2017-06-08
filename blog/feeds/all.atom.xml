@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T12:15:00+08:00</updated><entry><title>協同產品設計實習第十五週練習</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html" rel="alternate"></link><published>2017-06-01T12:15:00+08:00</published><updated>2017-06-01T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-01:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;p&gt;利用漸開線原理, 以 Brython 繪製齒輪組嚙合&lt;/p&gt;
-&lt;p&gt;Title:  w15 練習
-Date: 2017-06-01 12:00
-Category: 作業
-Tags: 作業
-Author: 40423112&lt;/p&gt;
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
 &lt;p&gt;800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 , 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
