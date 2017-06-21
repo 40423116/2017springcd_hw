@@ -317,8 +317,6 @@ init_mathjax();
                 <!-- PELICAN_END_SUMMARY -->
 
 <h3>1.各組員倉儲中的 Github 檔案推送</h3>
-<h3>2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中</h3>
-<h3>3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中</h3>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
@@ -336,15 +334,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!-- 以下實際利用  Brython 繪圖-->
 
-<canvas id="onegear" width="800" height="600"></canvas>
+<canvas id="onegear2" width="800" height="600"></canvas>
 
-<canvas id="plotarea" width="500" height="500"></canvas>
-
-<script type="text/python3">
-# 導入 doc
-from browser import document as doc
-from browser import console
-import math
+<div id="onegear_div" width="800" height="20"></div>
 
 <script type="text/python3">
 from browser import document as doc
@@ -356,7 +348,6 @@ class Spur(object):
     def __init__(self, ctx):
         self.ctx = ctx
 
-
 # 設定畫線參數
 #紅線
     def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
@@ -366,66 +357,105 @@ class Spur(object):
     self.ctx.lineTo(x2, y2)
     self.ctx.strokeStyle = fill
     self.ctx.stroke()
-#綠線
-def create_line2(self, x1, y1, x2, y2, width=3, fill="green"):
-    self.ctx.beginPath()
-    self.ctx.lineWidth = width
-    self.ctx.moveTo(x1, y1)
-    self.ctx.lineTo(x2, y2)
-    self.ctx.strokeStyle = fill
-    self.ctx.stroke()
-#黑線
-def create_line3(self, x1, y1, x2, y2, width=3, fill="black"):
-    self.ctx.beginPath()
-    self.ctx.lineWidth = width
-    self.ctx.moveTo(x1, y1)
-    self.ctx.lineTo(x2, y2)
-    self.ctx.strokeStyle = fill
-    self.ctx.stroke()
 
+    ctx.save()
+    ctx.translate( 400 , 300 )
+    ctx.rotate(180*deg)
+    ctx.translate( -400 , -300 )
+    #4
+    self.create_line3(50, 550, 50, 450)
+    self.create_line3(50, 550,150, 450)
+    self.create_line3(150, 350, 150, 550)
+    #0
+    self.create_line3(200, 350, 200, 550)
+    self.create_line3(200, 550, 300, 550)
+    self.create_line3(300, 350, 300, 550)
+    self.create_line3(300, 350, 200, 350)
+    #4
+    self.create_line3(350, 550, 350, 450)
+    self.create_line3(450, 350, 450, 550)
+    self.create_line3(350, 450, 450, 450)
+    #2
+    self.create_line3(500, 550, 600, 550)
+    self.create_line3(500, 450, 600, 450)
+    self.create_line3(500, 350, 600, 350)
+    self.create_line3(600, 550, 600, 450)
+    self.create_line3(500, 350, 500, 450)
+    #3
+    self.create_line3(650, 550, 750, 550)
+    self.create_line3(650, 450, 750, 450)
+    self.create_line3(650, 350, 750, 350)
+    self.create_line3(750, 550, 750, 350)
+    #1
+    self.create_line3(350, 50, 350,250 )
+    #6
+    self.create_line3(400, 250, 500,250 )
+    self.create_line3(400, 150, 500,150 )
+    self.create_line3(400, 50, 500,50 )
+    self.create_line3(400, 50, 400, 250)
+    self.create_line3(500, 150, 500, 50) 
+    ctx.restore()
 
-ctx.save()
-ctx.translate( 400 , 300 )
-ctx.rotate(180*deg)
-ctx.translate( -400 , -300 )
- # 4
-self.create_line3(50, 550, 50, 450)
-self.create_line3(50, 550,150, 450)
-self.create_line3(150, 350, 150, 550)
-
-# 0
-self.create_line3(200, 350, 200, 550)
-self.create_line3(200, 550, 300, 550)
-self.create_line3(300, 350, 300, 550)
-self.create_line3(300, 350, 200, 350)
-
-# 4
-self.create_line3(350, 550, 350, 450)
-self.create_line3(450, 350, 450, 550)
-self.create_line3(350, 450, 450, 450)
-
-#  2
-self.create_line3(500, 550, 600, 550)
-self.create_line3(500, 450, 600, 450)
-self.create_line3(500, 350, 600, 350)
-self.create_line3(600, 550, 600, 450)
-self.create_line3(500, 350, 500, 450)
-#  3
-self.create_line3(650, 550, 750, 550)
-self.create_line3(650, 450, 750, 450)
-self.create_line3(650, 350, 750, 350)
-self.create_line3(750, 550, 750, 350)
- # 1
-self.create_line3(350, 50, 350,250 )
-
- # 6
-self.create_line3(400, 250, 500,250 )
-self.create_line3(400, 150, 500,150 )
-self.create_line3(400, 50, 500,50 )
-self.create_line3(400, 50, 400, 250)
-self.create_line3(500, 150, 500, 50) 
-ctx.restore()
+        if rd>rb:
+            dr = (ra-rd)/imax
+        else:
+            dr=(ra-rb)/imax
+        sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
+        for j in range(-9, 10, +1):
+            ang=-2.*j*math.pi/n+sigma
+            ang2=2.*j*math.pi/n+sigma
+            lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
+            lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
+            for i in range(imax+1):
+                if rd>rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(alpha-ang)
+                ypt=r*math.cos(alpha-ang)
+                xd=rd*math.sin(-ang)
+                yd=rd*math.cos(-ang)
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+            self.create_line((lxd),(lyd),(midx+xd),(midy-yd),fill=color)
+            for i in range(imax+1):
+                if rd>rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(ang2-alpha)
+                ypt=r*math.cos(ang2-alpha)
+                xd=rd*math.sin(ang2)
+                yd=rd*math.cos(ang2)
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)   
+                if(i==imax):
+                    rfx=midx+xpt
+                    rfy=midy-ypt
+                last_x = midx+xpt
+                last_y = midy-ypt
+            self.create_line(lfx,lfy,rfx,rfy,fill=color)
+canvas = doc['onegear2']
+ctx = canvas.getContext("2d")
+x = (canvas.width)/2
+y = (canvas.height)/2
+r = 0.8*(canvas.height/2)
+# 齒數
+n = 36
+# 壓力角
+pa = 20
+Spur(ctx).Gear(x, y, r, n, pa, "blue")
 </script>
+
+<h3>2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中</h3>
+<h3>3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中</h3>
             </div>
             <!-- /.entry-content -->
         </article>
