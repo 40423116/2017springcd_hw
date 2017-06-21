@@ -1,7 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T12:15:00+08:00</updated><entry><title>協同產品設計實習第十五週練習</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html" rel="alternate"></link><published>2017-06-01T12:15:00+08:00</published><updated>2017-06-01T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-01:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423116 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-16T12:18:00+08:00</updated><entry><title>期末協同查驗與自評</title><link href="./qi-mo-xie-tong-cha-yan-yu-zi-ping.html" rel="alternate"></link><published>2017-06-16T12:18:00+08:00</published><updated>2017-06-16T12:18:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-16:./qi-mo-xie-tong-cha-yan-yu-zi-ping.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;p&gt;800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 , 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓&lt;/p&gt;
+&lt;h3&gt;1.各組員倉儲中的 Github 檔案推送&lt;/h3&gt;
+&lt;h3&gt;2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/h3&gt;
+&lt;h3&gt;3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/h3&gt;
+&lt;h3&gt;4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/221680604" width="640" height="590" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/221680604"&gt;40423116-2017springcd-final-4.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;5.各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/221685161" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/221685161"&gt;40423116-2017springcd-final-5.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務&lt;/h3&gt;
+&lt;h3&gt;零件圖&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../date/w17/40423116_bar.png"width="800" /&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/222340552" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222340552"&gt;40423116-2017springcd-final-6.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/7113275b196c13ba2a4f1cdf/w/09ad642ae3484329c5fbdf4e/e/ecc8f7f70622951f76dbfe55"&gt;###onshape&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;7.各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/h3&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- Cango 程式庫 --&gt;
+
+&lt;script type="text/javascript" src="./../data/w11/cango
+/Cango-9v05-min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/w11/cango
+/CangoAxes-2v09.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/w11/cango
+/CangoAnimation-5v00.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/w11/cango
+/gearUtils-05.js"&gt;&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 繪圖--&gt;
+
+&lt;canvas id="cango_canvas2" width="800" height="800"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import window
+import math
+利用 window 擷取 Cango 物件, 然後以 new 方法轉為 Brython 物件
+cango = window.Cango.new
+shape = window.Shape.new
+shapedefs = window.shapeDefs
+
+def drawSpiral(cvsID):
+    g = cango(cvsID)
+    chamber = ['M',200,200, 'L'500,500,'L',500,200,'z']
+    cobj = shape(chamber, {
+        'fillColor':"lightyellow",
+        'strokeColor':"tan",
+        'lineWidthWC':4,
+        'border':True })
+    cobj.translate(-287, -536)
+    g.setGridboxSVG()
+    g.setWorldCoords(-250, -320, 500)
+    # draw the spiral center dot
+    g.drawShape(shapedefs.circle(8), {'fillColor':"tan"})
+    # draw the 50 spiral segments
+    scale = 1
+    for i in range(50):
+        scale = scale/1.08
+        g.render(cobj, {'scl':scale, 'degs':i*24.5})
+
+drawSpiral("cango_canvas2")
+&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>40423116-2017springcd-final-1~2~3</title><link href="./40423116-2017springcd-final-123.html" rel="alternate"></link><published>2017-06-16T12:15:00+08:00</published><updated>2017-06-16T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-16:./40423116-2017springcd-final-123.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h3&gt;1.各組員倉儲中的 Github 檔案推送&lt;/h3&gt;
+&lt;h3&gt;2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/h3&gt;
+&lt;h3&gt;3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/h3&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 繪圖--&gt;
+
+&lt;canvas id="onegear" width="800" height="600"&gt;&lt;/canvas&gt;
+
+&lt;canvas id="plotarea" width="500" height="500"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+
+# 設定畫線參數
+#紅線
+    def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
+    self.ctx.beginPath()
+    self.ctx.lineWidth = width
+    self.ctx.moveTo(x1, y1)
+    self.ctx.lineTo(x2, y2)
+    self.ctx.strokeStyle = fill
+    self.ctx.stroke()
+#綠線
+def create_line2(self, x1, y1, x2, y2, width=3, fill="green"):
+    self.ctx.beginPath()
+    self.ctx.lineWidth = width
+    self.ctx.moveTo(x1, y1)
+    self.ctx.lineTo(x2, y2)
+    self.ctx.strokeStyle = fill
+    self.ctx.stroke()
+#黑線
+def create_line3(self, x1, y1, x2, y2, width=3, fill="black"):
+    self.ctx.beginPath()
+    self.ctx.lineWidth = width
+    self.ctx.moveTo(x1, y1)
+    self.ctx.lineTo(x2, y2)
+    self.ctx.strokeStyle = fill
+    self.ctx.stroke()
+
+
+ctx.save()
+ctx.translate( 400 , 300 )
+ctx.rotate(180*deg)
+ctx.translate( -400 , -300 )
+ # 4
+self.create_line3(50, 550, 50, 450)
+self.create_line3(50, 550,150, 450)
+self.create_line3(150, 350, 150, 550)
+
+# 0
+self.create_line3(200, 350, 200, 550)
+self.create_line3(200, 550, 300, 550)
+self.create_line3(300, 350, 300, 550)
+self.create_line3(300, 350, 200, 350)
+
+# 4
+self.create_line3(350, 550, 350, 450)
+self.create_line3(450, 350, 450, 550)
+self.create_line3(350, 450, 450, 450)
+
+#  2
+self.create_line3(500, 550, 600, 550)
+self.create_line3(500, 450, 600, 450)
+self.create_line3(500, 350, 600, 350)
+self.create_line3(600, 550, 600, 450)
+self.create_line3(500, 350, 500, 450)
+#  3
+self.create_line3(650, 550, 750, 550)
+self.create_line3(650, 450, 750, 450)
+self.create_line3(650, 350, 750, 350)
+self.create_line3(750, 550, 750, 350)
+ # 1
+self.create_line3(350, 50, 350,250 )
+
+ # 6
+self.create_line3(400, 250, 500,250 )
+self.create_line3(400, 150, 500,150 )
+self.create_line3(400, 50, 500,50 )
+self.create_line3(400, 50, 400, 250)
+self.create_line3(500, 150, 500, 50) 
+ctx.restore()
+&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習第十五週練習</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html" rel="alternate"></link><published>2017-06-01T12:15:00+08:00</published><updated>2017-06-01T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-01:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -1464,20 +1656,22 @@ ctx.closePath()
 
 
 &lt;h3&gt;四連桿導入vrep運動模擬及設定&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../2017springcd/w1/40423116_fourbar.html"width="800" /&gt;&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/211701804" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="./../2017springcd/w1/40423116_fourbar.html"width="800"&gt;&lt;/iframe sr&gt;
 
+&lt;iframe src="https://player.vimeo.com/video/211701804" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/211701804"&gt;虎尾科技大學 機械設計系 40423116 李冠辰&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3&gt;八連桿導入vrep運動模擬及設定&lt;/h3&gt;
-&lt;iframe src="https://player.vimeo.com/video/211696265" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
+###八連桿導入vrep運動模擬及設定
+
+&lt;iframe src="https://player.vimeo.com/video/211696265" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/211696265"&gt;虎尾科技大學 機械設計系 40423116 李冠辰 八連桿模擬運動及設定&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd_hw 第五週</title><link href="./2017springcd_hw-di-wu-zhou.html" rel="alternate"></link><published>2017-03-23T12:00:00+08:00</published><updated>2017-03-23T12:00:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-03-23:./2017springcd_hw-di-wu-zhou.html</id><summary type="html">&lt;p&gt;單連桿轉入 V-rep 進行運動模擬&lt;/p&gt;
 
 
 &lt;p&gt;介紹Wiki編輯模式的種類(Fossil Wiki、Markdown、Html)&lt;/p&gt;
 &lt;p&gt;Solcespace 單連桿轉入 V-rep 進行運動模擬&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../2017springcd/onelink/one link.html"width="800" /&gt;&lt;/p&gt;
+&lt;iframe src="./../2017springcd/onelink/one link.html"width="800" /&gt;&lt;/iframe&gt;
+
 &lt;p&gt;影片:轉入 V-rep 設定跟運動模擬&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/211697923" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -1602,10 +1796,10 @@ ctx.closePath()
 
 
 &lt;h2&gt;多連桿組立&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="./../2017springcd/w2/bar.html"width="800" height="600"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;iframe src="./../2017springcd/w2/bar.html"width="800" height="600"&gt;&lt;/iframe src&gt;
 &lt;iframe src="https://player.vimeo.com/video/208828038" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/208828038"&gt;組合多連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src="./../2017springcd/w2/bar01.html"width="800" height="600"&gt;&lt;/iframe&gt;
+&lt;img src="./../2017springcd/w2/bar01.html"width="800" height="600"&gt;
 &lt;iframe src="https://player.vimeo.com/video/208821408" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/208821408"&gt;bar01&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe src="./../2017springcd/w2/bar02.html"width="800" height="600"&gt;&lt;/iframe&gt;

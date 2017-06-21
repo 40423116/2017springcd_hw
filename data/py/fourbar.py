@@ -36,7 +36,7 @@ class fourbar(object):
     ed triangle side2
     '''
     def __init__(self, ax, ay, bx, by, bac, ac, cd, db, ce, ed):
-    
+
         self.ax = ax
         self.ay = ay
         self.bx = bx
@@ -51,7 +51,7 @@ class fourbar(object):
     @property
     def cx(self):
         return plap(self.ax, self.ay, self.ac, self.bac, self.bx, self.by, pos=0)[0]
-    
+
     @property
     def cy(self):
         return plap(self.ax, self.ay, self.ac, self.bac, self.bx, self.by, pos=0)[1]
@@ -59,7 +59,7 @@ class fourbar(object):
     @property
     def dx(self):
         return pllp(self.cx, self.cy, self.cd, self.db, self.bx, self.by, pos=0)[0]
-    
+
     @property
     def dy(self):
         return pllp(self.cx, self.cy, self.cd, self.db, self.bx, self.by, pos=0)[1]
@@ -67,7 +67,7 @@ class fourbar(object):
     @property
     def ex(self):
         return pllp(self.cx, self.cy, self.ce, self.ed, self.dx, self.dy, pos=0)[0]
-    
+
     @property
     def ey(self):
         return pllp(self.cx, self.cy, self.ce, self.ed, self.dx, self.dy, pos=0)[1]
