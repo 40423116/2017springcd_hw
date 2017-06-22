@@ -316,9 +316,8 @@ init_mathjax();
                 </div>
                 <!-- PELICAN_END_SUMMARY -->
 
-<h3>1.各組員倉儲中的 Github 檔案推送</h3>
-<!-- 導入 Brython 標準程式庫 -->
-
+<p>1.各組員倉儲中的 Github 檔案推送
+<!-- 導入 Brython 標準程式庫 --></p>
 <script src="../data/Brython-3.3.1/brython.js"></script>
 
 <script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
@@ -351,50 +350,50 @@ class Spur(object):
 # 設定畫線參數
 #紅線
     def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
-    self.ctx.beginPath()
-    self.ctx.lineWidth = width
-    self.ctx.moveTo(x1, y1)
-    self.ctx.lineTo(x2, y2)
-    self.ctx.strokeStyle = fill
-    self.ctx.stroke()
+        self.ctx.beginPath()
+        self.ctx.lineWidth = width
+        self.ctx.moveTo(x1, y1)
+        self.ctx.lineTo(x2, y2)
+        self.ctx.strokeStyle = fill
+        self.ctx.stroke()
 
-    ctx.save()
-    ctx.translate( 400 , 300 )
-    ctx.rotate(180*deg)
-    ctx.translate( -400 , -300 )
-    #4
-    self.create_line3(50, 550, 50, 450)
-    self.create_line3(50, 550,150, 450)
-    self.create_line3(150, 350, 150, 550)
-    #0
-    self.create_line3(200, 350, 200, 550)
-    self.create_line3(200, 550, 300, 550)
-    self.create_line3(300, 350, 300, 550)
-    self.create_line3(300, 350, 200, 350)
-    #4
-    self.create_line3(350, 550, 350, 450)
-    self.create_line3(450, 350, 450, 550)
-    self.create_line3(350, 450, 450, 450)
-    #2
-    self.create_line3(500, 550, 600, 550)
-    self.create_line3(500, 450, 600, 450)
-    self.create_line3(500, 350, 600, 350)
-    self.create_line3(600, 550, 600, 450)
-    self.create_line3(500, 350, 500, 450)
-    #3
-    self.create_line3(650, 550, 750, 550)
-    self.create_line3(650, 450, 750, 450)
-    self.create_line3(650, 350, 750, 350)
-    self.create_line3(750, 550, 750, 350)
-    #1
-    self.create_line3(350, 50, 350,250 )
-    #6
-    self.create_line3(400, 250, 500,250 )
-    self.create_line3(400, 150, 500,150 )
-    self.create_line3(400, 50, 500,50 )
-    self.create_line3(400, 50, 400, 250)
-    self.create_line3(500, 150, 500, 50) 
-    ctx.restore()
+        ctx.save()
+        ctx.translate( 400 , 300 )
+        ctx.rotate(180*deg)
+        ctx.translate( -400 , -300 )
+        #4
+        self.create_line3(50, 550, 50, 450)
+        self.create_line3(50, 550,150, 450)
+        self.create_line3(150, 350, 150, 550)
+        #0
+        self.create_line3(200, 350, 200, 550)
+        self.create_line3(200, 550, 300, 550)
+        self.create_line3(300, 350, 300, 550)
+        self.create_line3(300, 350, 200, 350)
+        #4
+        self.create_line3(350, 550, 350, 450)
+        self.create_line3(450, 350, 450, 550)
+        self.create_line3(350, 450, 450, 450)
+        #2
+        self.create_line3(500, 550, 600, 550)
+        self.create_line3(500, 450, 600, 450)
+        self.create_line3(500, 350, 600, 350)
+        self.create_line3(600, 550, 600, 450)
+        self.create_line3(500, 350, 500, 450)
+        #3
+        self.create_line3(650, 550, 750, 550)
+        self.create_line3(650, 450, 750, 450)
+        self.create_line3(650, 350, 750, 350)
+        self.create_line3(750, 550, 750, 350)
+        #1
+        self.create_line3(350, 50, 350,250 )
+        #6
+        self.create_line3(400, 250, 500,250 )
+        self.create_line3(400, 150, 500,150 )
+        self.create_line3(400, 50, 500,50 )
+        self.create_line3(400, 50, 400, 250)
+        self.create_line3(500, 150, 500, 50) 
+        ctx.restore()
 
         if rd>rb:
             dr = (ra-rd)/imax
@@ -476,6 +475,11 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
                         </a>
                     </li>
                     <li class="list-group-item">
+                        <a href="./40423116-2017spr3.html">
+                            40423116-2017spr3
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./40423116-2017springcd-final-123.html">
                             40423116-2017springcd-final-1~2~3
                         </a>
@@ -488,11 +492,6 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
                     <li class="list-group-item">
                         <a href="./2017springcd_hw-di-shi-er-zhou.html">
                             2017springcd_hw 第十二週
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./2017springcd_hw-di-shi-yi-zhou.html">
-                            2017springcd_hw 第十一週
                         </a>
                     </li>
                 </ul>
