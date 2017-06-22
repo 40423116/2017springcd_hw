@@ -16,7 +16,7 @@
 &lt;p&gt;&lt;a href="https://vimeo.com/221685161"&gt;40423116-2017springcd-final-5.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h3&gt;6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務&lt;/h3&gt;
 &lt;h3&gt;零件圖&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../date/w17/40423116_bar.png"width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../date/w17/40423116_bar.png"width="1200"/&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/222340552" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/222340552"&gt;40423116-2017springcd-final-6.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
@@ -990,8 +990,12 @@ ctx.rotate(-90*deg-math.pi/n13)
 ctx.translate( -x13 , -y )
 gear13 = Spur(ctx).Gear(x13, y, r13, n13, pa, "blue")
 ctx.restore()
+ctx.save()
+ctx.translate( x13 , y )
+ctx.rotate(-90*deg-math.pi/n11)
+ctx.translate( -x13 , -y )
 gear11 = Spur(ctx).Gear(x11, y, r11, n11, pa, "blue")
-
+ctx.restore()
 
 div = doc["onegear_div"]
 div &lt;= str(canvas.width) + "X" + str(canvas.height)
