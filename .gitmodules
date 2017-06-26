@@ -1,0 +1,4 @@
+[submodule "ag3"]
+	path = ag3
+	url = https://github.com/40423132/2017springcd_ag3.git
+	branch = gh-pages

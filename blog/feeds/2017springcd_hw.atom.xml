@@ -8,6 +8,24 @@
 &lt;p&gt;&lt;a href="http://www.arc.id.au/"&gt;cango 程式庫&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://40423116.github.io/2017springcd_hw/blog/40423116-zuo-ye-jian-bao-shang-ke-wik.html"&gt;小組倉儲中設定組員為子模組的流程&lt;/a&gt;&lt;/p&gt;
+&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3
+4
+5
+6
+7
+8&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git submodule add -b gh-pages https://github.com/name/組員倉儲 name
+#啟動子目錄
+git submodule init
+#更新對應子版本
+git submodule update
+git pull origin gh-pages --recurse-submodules
+git submodule foreach &amp;quot;(git checkout gh-pages; git pull)&amp;amp;&amp;quot;
+git submodule update --init --recursive
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
 &lt;h3&gt;4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/221680604" width="640" height="590" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/221680604"&gt;40423116-2017springcd-final-4.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
@@ -15,14 +33,25 @@
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/221685161" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/221685161"&gt;40423116-2017springcd-final-5.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h3&gt;6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務&lt;/h3&gt;
-&lt;h3&gt;零件圖&lt;/h3&gt;
-&lt;p&gt;&lt;img src="./../date/w17/40423116_bar.png"width="1200"/&gt;&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/222340552" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/222340552"&gt;40423116-2017springcd-final-6.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/7113275b196c13ba2a4f1cdf/w/09ad642ae3484329c5fbdf4e/e/ecc8f7f70622951f76dbfe55"&gt;###onshape&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423116.github.io/2017springcd_hw/blog/si-lian-gan-xing-zou-ji-gou.html"&gt;40423116&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/w17/40423116.png" width="800" height="600" /&gt;&lt;/p&gt;
+&lt;h3&gt;fossil clone&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/223097538" width="640" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223097538"&gt;40423116-2017springcd-fossil clone&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;fossil commit&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/223097617" width="640" height="538" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223097617"&gt;40423116-2017springcd-final-7&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;fossil clone https://40423116@mde2a2.kmol.info/cdag3 cdag3.fossil
+fossil open cdag3.fossil
+fossil add all .
+fossil commit -m &amp;quot;&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -85,43 +114,27 @@ def drawSpiral(cvsID):
         g.render(cobj, {'scl':scale, 'degs':i*24.5})
 
 drawSpiral("cango_canvas2")
-&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>40423116-2017springcd-final-123</title><link href="./40423116-2017springcd-final-123.html" rel="alternate"></link><published>2017-06-16T12:15:00+08:00</published><updated>2017-06-16T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-16:./40423116-2017springcd-final-123.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>四連桿行走機構</title><link href="./si-lian-gan-xing-zou-ji-gou.html" rel="alternate"></link><published>2017-06-16T12:15:00+08:00</published><updated>2017-06-16T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-16:./si-lian-gan-xing-zou-ji-gou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;p&gt;1.各組員倉儲中的 Github 檔案推送
-&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
-&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
-
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
-
-&lt;!-- 啟動 Brython --&gt;
-
-&lt;script&gt;
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-&lt;/script&gt;
-
-&lt;!-- 以下實際利用  Brython 繪圖--&gt;
-
-&lt;canvas id="onegear2" width="800" height="600"&gt;&lt;/canvas&gt;
-
-&lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import math
-# deg 為角度轉為徑度的轉換因子
-deg = math.pi/180.
-# 定義 Spur 類別
-class Spur(object):
-    def __init__(self, ctx):
-        self.ctx = ctx
-
-&lt;/script&gt;
-
-&lt;h3&gt;2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/h3&gt;
-&lt;h3&gt;3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/h3&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習第十五週練習</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html" rel="alternate"></link><published>2017-06-01T12:15:00+08:00</published><updated>2017-06-01T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-01:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;h3&gt;組合、零件圖&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/w17/40423116_bar.png" width="800" height="600" /&gt;
+&lt;img src="./../data/w17/40423116_bar01.png" width="800" height="600" /&gt;
+配件為M3螺帽、M3螺絲、圓墊片及直流馬達
+零件:
+連接件x2
+兩側連接腳之板件
+四連桿腳組2、4、4(短桿、長桿、腳)&lt;/p&gt;
+&lt;h3&gt;onshape 運動&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/223092787" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223092787"&gt;40423116 onshape 行走機構運動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://cad.onshape.com/documents/7113275b196c13ba2a4f1cdf/w/09ad642ae3484329c5fbdf4e/e/ecc8f7f70622951f76dbfe55"&gt;onshape&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;實物運動&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/222340552" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/222340552"&gt;40423116-2017springcd-final-6.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+因直流馬達扭力不足，所以在陸地行走不實際&lt;/p&gt;
+&lt;h2&gt;下載&lt;/h2&gt;
+&lt;p&gt;&lt;a href="./../data/w17/40423116_fourbarcar.stl"&gt;四連桿零件組&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../data/w17/40423116_fourbarcar01.stl"&gt;四連桿組合件&lt;/a&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習第十五週練習</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html" rel="alternate"></link><published>2017-06-01T12:15:00+08:00</published><updated>2017-06-01T12:15:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-06-01:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-wu-zhou-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -1127,7 +1140,239 @@ def draw():
     cgo.render(gear1, {'x':cx+pr*2*0.5-pr/2, 'y':cy, 'scl':0.5, 'degs':0})
 
 set_interval(draw, 2)
-&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd_hw 第十一週</title><link href="./2017springcd_hw-di-shi-yi-zhou.html" rel="alternate"></link><published>2017-05-04T12:16:00+08:00</published><updated>2017-05-04T12:16:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-05-04:./2017springcd_hw-di-shi-yi-zhou.html</id><summary type="html">&lt;p&gt;單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="./../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="./../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;canvas id="onegear2" width="800" height="600"&gt;&lt;/canvas&gt;
+
+&lt;div id="onegear2_div" width="800" height="20"&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;input id="n1" value="13"&gt;&lt;/input&gt;&lt;br /&gt;
+&lt;input id="n2" value="11"&gt;&lt;/input&gt;&lt;br /&gt;
+&lt;input id="n3" value="17"&gt;&lt;/input&gt;&lt;br /&gt;
+&lt;button id="button"&gt;Set Number of Gears&lt;/button&gt;&lt;/p&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+    def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
+        self.ctx.beginPath()
+        self.ctx.lineWidth = width
+        self.ctx.moveTo(x1, y1)
+        self.ctx.lineTo(x2, y2)
+        self.ctx.strokeStyle = fill
+        self.ctx.stroke()
+    #
+    # 定義一個繪正齒輪的繪圖函式
+    # midx 為齒輪圓心 x 座標
+    # midy 為齒輪圓心 y 座標
+    # rp 為節圓半徑, n 為齒數
+    # pa 為壓力角 (deg)
+    # 已經針對 n 大於等於 52 齒時的繪圖錯誤修正, 因為 base circle 與齒根圓大小必須進行判斷
+    def Gear(self, midx, midy, rp, n=20, pa=20, color="black"):
+        # 齒輪漸開線分成 15 線段繪製
+        imax = 15
+        # 在輸入的畫布上繪製直線, 由圓心到節圓 y 軸頂點畫一直線
+        self.create_line(midx, midy, midx, midy-rp)
+        # 畫出 rp 圓, 畫圓函式尚未定義
+        #create_oval(midx-rp, midy-rp, midx+rp, midy+rp, width=2)
+        # a 為模數 (代表公制中齒的大小), 模數為節圓直徑(稱為節徑)除以齒數
+        # 模數也就是齒冠大小
+        a=2*rp/n
+        # d 為齒根大小, 為模數的 1.157 或 1.25倍, 這裡採 1.25 倍
+        d=2.5*rp/n
+        # ra 為齒輪的外圍半徑
+        ra=rp+a
+        # 畫出 ra 圓, 畫圓函式尚未定義
+        #create_oval(midx-ra, midy-ra, midx+ra, midy+ra, width=1)
+        # rb 則為齒輪的基圓半徑
+        # 基圓為漸開線長齒之基準圓
+        rb=rp*math.cos(pa*deg)
+        # 畫出 rb 圓 (基圓), 畫圓函式尚未定義
+        #create_oval(midx-rb, midy-rb, midx+rb, midy+rb, width=1)
+        # rd 為齒根圓半徑
+        rd=rp-d
+        # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+        # 畫出 rd 圓 (齒根圓), 畫圓函式尚未定義
+        #create_oval(midx-rd, midy-rd, midx+rd, midy+rd, width=1)
+        # dr 則為基圓到齒頂圓半徑分成 imax 段後的每段半徑增量大小
+        # 將圓弧分成 imax 段來繪製漸開線
+        # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+        if rd&gt;rb:
+            dr = (ra-rd)/imax
+        else:
+            dr=(ra-rb)/imax
+        # tan(pa*deg)-pa*deg 為漸開線函數
+        sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
+        for j in range(n):
+            ang=-2.*j*math.pi/n+sigma
+            ang2=2.*j*math.pi/n+sigma
+            lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
+            lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
+            for i in range(imax+1):
+                # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+                if rd&gt;rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(alpha-ang)
+                ypt=r*math.cos(alpha-ang)
+                xd=rd*math.sin(-ang)
+                yd=rd*math.cos(-ang)
+                # i=0 時, 繪線起點由齒根圓上的點, 作為起點
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+                # 由左側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
+                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)
+                # 最後一點, 則為齒頂圓
+                if(i==imax):
+                    lfx=midx+xpt
+                    lfy=midy-ypt
+                last_x = midx+xpt
+                last_y = midy-ypt
+            # the line from last end of dedendum point to the recent
+            # end of dedendum point
+            # lxd 為齒根圓上的左側 x 座標, lyd 則為 y 座標
+            # 下列為齒根圓上用來近似圓弧的直線
+            self.create_line((lxd),(lyd),(midx+xd),(midy-yd),fill=color)
+            for i in range(imax+1):
+                # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
+                if rd&gt;rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(ang2-alpha)
+                ypt=r*math.cos(ang2-alpha)
+                xd=rd*math.sin(ang2)
+                yd=rd*math.cos(ang2)
+                # i=0 時, 繪線起點由齒根圓上的點, 作為起點
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+                # 由右側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
+                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)
+                # 最後一點, 則為齒頂圓
+                if(i==imax):
+                    rfx=midx+xpt
+                    rfy=midy-ypt
+                last_x = midx+xpt
+                last_y = midy-ypt
+            # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
+            # 下列為齒頂圓上用來近似圓弧的直線
+            self.create_line(lfx,lfy,rfx,rfy,fill=color)
+
+canvas = doc['onegear2']
+ctx = canvas.getContext("2d")
+
+# 以 button 驅動的事件函式
+def setgearnumber(e):
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    x = (canvas.width)/2
+    y = (canvas.height)/2
+    if doc["n1"].value.isdigit():
+        n17 = int(doc["n1"].value)
+    else:
+        n17 = 17
+
+    if doc["n2"].value.isdigit():
+        n11 = int(doc["n2"].value)
+    else:
+        n11 = 11
+
+    if doc["n3"].value.isdigit():
+        n13 = int(doc["n3"].value)
+    else:
+        n13 = 13
+
+    # 只使用畫布高度的 80%
+    canvas_size = canvas.height*0.4
+    r17 = canvas_size*n17/(n17+n11+n13)
+    r11 = canvas_size*n11/(n17+n11+n13)
+    r13 = canvas_size*n13/(n17+n11+n13)
+    # 計算各齒輪中心座標
+    x17 = x - r17-r11
+    y17 = y
+
+    x11 = x 
+    y11 = y
+
+    x13 = x + r11+r13
+    y13 = y
+
+    pa = 20
+    # 開始繪製齒輪
+    # 儲存原有的座標系統
+    ctx.save()
+    # 平移到齒輪圓心
+    ctx.translate(x17, y17)
+    # 以齒輪圓心旋轉 90 度, 讓紅色標線在齒輪右側保持水平
+    ctx.rotate(90*deg)
+    # 平移回原來的座標原點
+    ctx.translate(-x17, -y17)
+    gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa, "blue")
+    # 回復原有的座標系統
+    ctx.restore()
+
+    ctx.save()
+    ctx.translate(x11, y11)
+    # 中間齒輪轉動 -90 度加上一齒, 可以與左側齒輪囓合
+    ctx.rotate(-90*deg-math.pi/n11)
+    ctx.translate(-x11, -y11)
+    gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa, "blue")
+    ctx.restore()
+
+    ctx.save()
+    ctx.translate(x13, y13)
+    # 右側齒輪轉動 -90 度加上一齒, 可以與原來標線在左側水平的中間齒輪囓合, 但是目前中間齒輪的標線已經轉了 180 度加或減一次
+    # 必須配合兩齒的速比轉換旋轉角, 以便讓中間齒輪與右側齒輪囓合
+    ctx.rotate(-90*deg-math.pi/n13+(180*deg+math.pi/n11)*n11/n13)
+    ctx.translate(-x13, -y13)
+    gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa, "blue")
+    ctx.restore()
+
+setgearnumber(True)
+
+'''
+div = doc["onegear2_div"]
+form = html.FORM()
+input1 = html.INPUT(type="text", id="n1", name="n1", value="13")
+input2 = html.INPUT(type="text", id="n2", name="n2", value="11")
+input3 = html.INPUT(type="text", id="n3", name="n3", value="19")
+div &lt;= input1 + html.BR() + input2 + html.BR() + input3
+'''
+doc['button'].bind('click',setgearnumber)
+&lt;/script&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/223099755" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223099755"&gt;虎尾科技大學 機械設計系40423116 齒輪運動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>2017springcd_hw 第十一週</title><link href="./2017springcd_hw-di-shi-yi-zhou.html" rel="alternate"></link><published>2017-05-04T12:16:00+08:00</published><updated>2017-05-04T12:16:00+08:00</updated><author><name>40423116</name></author><id>tag:,2017-05-04:./2017springcd_hw-di-shi-yi-zhou.html</id><summary type="html">&lt;p&gt;單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
 &lt;p&gt;利用漸開線原理, 以 Brython 繪製單一正齒輪廓:&lt;/p&gt;

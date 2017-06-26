@@ -323,6 +323,24 @@ init_mathjax();
 <p><a href="http://www.arc.id.au/">cango 程式庫</a></p>
 <h3>3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章</h3>
 <p><a href="https://40423116.github.io/2017springcd_hw/blog/40423116-zuo-ye-jian-bao-shang-ke-wik.html">小組倉儲中設定組員為子模組的流程</a></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git submodule add -b gh-pages https://github.com/name/組員倉儲 name
+#啟動子目錄
+git submodule init
+#更新對應子版本
+git submodule update
+git pull origin gh-pages --recurse-submodules
+git submodule foreach &quot;(git checkout gh-pages; git pull)&amp;&quot;
+git submodule update --init --recursive
+</pre></div>
+</td></tr></table>
+
 <h3>4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件</h3>
 <p><iframe src="https://player.vimeo.com/video/221680604" width="640" height="590" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/221680604">40423116-2017springcd-final-4.mp4</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
@@ -330,14 +348,25 @@ init_mathjax();
 <p><iframe src="https://player.vimeo.com/video/221685161" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/221685161">40423116-2017springcd-final-5.mp4</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
 <h3>6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務</h3>
-<h3>零件圖</h3>
-<p><img src="./../date/w17/40423116_bar.png"width="1200"/></p>
-<iframe src="https://player.vimeo.com/video/222340552" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p><a href="https://vimeo.com/222340552">40423116-2017springcd-final-6.mp4</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-<p><a href="https://cad.onshape.com/documents/7113275b196c13ba2a4f1cdf/w/09ad642ae3484329c5fbdf4e/e/ecc8f7f70622951f76dbfe55">###onshape</a></p>
+<p><a href="https://40423116.github.io/2017springcd_hw/blog/si-lian-gan-xing-zou-ji-gou.html">40423116</a></p>
 <h3>7.各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.</h3>
+<p><img src="./../data/w17/40423116.png" width="800" height="600" /></p>
+<h3>fossil clone</h3>
+<p><iframe src="https://player.vimeo.com/video/223097538" width="640" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/223097538">40423116-2017springcd-fossil clone</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<h3>fossil commit</h3>
+<p><iframe src="https://player.vimeo.com/video/223097617" width="640" height="538" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/223097617">40423116-2017springcd-final-7</a> from <a href="https://vimeo.com/user47573583">40423116</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>fossil clone https://40423116@mde2a2.kmol.info/cdag3 cdag3.fossil
+fossil open cdag3.fossil
+fossil add all .
+fossil commit -m &quot;&quot;
+</pre></div>
+</td></tr></table>
+
 <!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
@@ -421,8 +450,8 @@ drawSpiral("cango_canvas2")
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40423116-2017springcd-final-123.html">
-                            40423116-2017springcd-final-123
+                        <a href="./si-lian-gan-xing-zou-ji-gou.html">
+                            四連桿行走機構
                         </a>
                     </li>
                     <li class="list-group-item">
